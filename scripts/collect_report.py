@@ -145,13 +145,25 @@ def main():
     focus=plats.most_common(1)[0][0] if plats else "公开数据不足"
     now=datetime.now(TZ)
     data={"updated_at":now.strftime("%Y-%m-%d %H:%M"),"kpis":{"top_category":topcat,
-    "top_category_note":"按当日公开趋势信号出现频次","focus_platform":focus,
+    "top_category_note":"按当日公开趋势信号出现频次","focus_platform":focus,"high_potential":"3 个",
     "data_status":"YouTube官方API + 公开RSS" if YT_KEY else "公开RSS（未配置YouTube API）"},
     "summary":[
       "V5 已启用自动去重、失败重试、缩略图、公开指标字段以及周期汇总。",
       "配置 YOUTUBE_API_KEY 后，YouTube 条目将使用官方 Data API 获取公开视频标题、频道、发布时间、播放量、点赞量、评论量与缩略图。",
       "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
-    ],"global_top10":g,"china_top10":c,"ideas":ideas(),"archive":[]}
+    ],"global_top10":g,"china_top10":c,"ideas":[
+      {"title":"同一选题的中外双版本实验","hook":"同一个故事，为什么中国版和海外版要用两种开头？","script":"海外版先展示结果和视觉冲击；中国版加入人物关系、情绪铺垫和结尾反转。","caption":"同一个选题，为什么中外平台要拍成两个版本？","tags":"#短视频运营 #内容出海 #爆款拆解"},
+      {"title":"30秒判断短视频是否值得拍","hook":"别先看点赞，先看三个结构信号。","script":"第一看前三秒冲突；第二看每五秒新信息；第三看结尾是否自然引导评论、收藏或转发。","caption":"一个视频值不值得拍，30秒判断","tags":"#短视频脚本 #内容创作 #运营干货"},
+      {"title":"四台设备组成24小时AI工作站","hook":"Mac、Windows、iPad和手机，怎样不再各自闲置？","script":"Mac负责创作，Windows负责自动化，iPad负责监控，手机负责采集、通知与审批。","caption":"四台设备，组成一套24小时AI系统","tags":"#AI工作流 #效率工具 #数字生活"}
+    ],"competitors":[
+      {"name":"YouTube Shorts 重点账号","status":"等待配置频道ID后自动监控更新频率、播放量和主题变化。","action":"在 config/competitors.json 填入频道ID。"},
+      {"name":"TikTok / Instagram 重点账号","status":"公开数据源不足时仅记录公开网页信号。","action":"接入官方API或合法第三方数据服务。"},
+      {"name":"抖音 / 快手 / B站","status":"B站可逐步接入公开视频数据；抖音、快手需合规数据源。","action":"先配置公开账号清单与人工核验规则。"}
+    ],"tasks":[
+      {"title":"制作 1 条中外双版本短视频","detail":"同一素材分别采用“结果先行”和“情绪铺垫”两种结构，测试完播率差异。"},
+      {"title":"复盘今日 Top 3 赛道","detail":"记录前三秒钩子、镜头切换频率、结尾互动方式并形成模板。"},
+      {"title":"更新竞品账号清单","detail":"新增至少 3 个值得长期监控的国内外账号。"}
+    ],"archive":[]}
     data["period_reports"]=period_summary(data)
     day=now.strftime("%Y-%m-%d");adir=ROOT/"archive"/now.strftime("%Y")/now.strftime("%m");adir.mkdir(parents=True,exist_ok=True)
     (adir/f"{day}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")

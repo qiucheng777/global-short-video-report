@@ -1,52 +1,47 @@
-# 全球短视频趋势中心 V5
+# AI 全球短视频情报中心 V10
 
-固定地址：
+固定网址：
 
 `https://qiucheng777.github.io/global-short-video-report/`
 
-## V5 新增
+## 已实现
 
-- YouTube Data API 官方公开视频指标
-- 视频缩略图
-- 自动去重
-- 网络失败自动重试
-- 周/月/季/年趋势汇总
-- 历史归档
-- 数据不足明确标注
-- 每天土耳其时间 16:00 自动运行
+- 国内外短视频趋势榜
+- YouTube 官方 API 支持
+- 公开视频指标和缩略图
+- 自动去重、失败重试和数据降级
+- AI 脚本、标题、标签与创作任务
+- 竞品账号监控配置
+- 日报、周报、月报、季报、年报
+- 历史情报归档
+- 每天土耳其时间 16:00 自动更新
 
-## 覆盖安装
+## 覆盖升级
 
-将本压缩包解压后，把所有文件上传到原仓库根目录并覆盖同名文件。
+将本压缩包解压后，把全部内容上传到原仓库根目录并覆盖。
 
-## 创建工作流
-
-文件路径必须是：
+工作流文件必须位于：
 
 `.github/workflows/daily.yml`
 
-如果 Windows 看不到 `.github`，请使用 GitHub 网页：
+上传后运行：
 
-`Add file → Create new file`
+`Actions → Update AI global short-video intelligence V10 → Run workflow`
 
-然后输入上述完整路径，再粘贴 `WORKFLOW_SETUP/daily.yml` 的内容。
+## YouTube 官方数据
 
-## 可选：接入 YouTube 官方 API
-
-仓库进入：
+在仓库：
 
 `Settings → Secrets and variables → Actions → New repository secret`
 
-名称：
+添加：
 
 `YOUTUBE_API_KEY`
 
-值：
+## 竞品监控
 
-你在 Google Cloud Console 创建的 YouTube Data API v3 密钥。
+编辑：
 
-不配置密钥时，系统仍会使用公开 RSS 趋势信号运行，但 YouTube 不会显示官方播放量、点赞量和评论量。
+`config/competitors.json`
 
-## 首次运行
-
-`Actions → Update global short-video report V5 → Run workflow`
+自动发布到 YouTube、TikTok、Instagram、抖音等平台，需要各平台官方开发者权限和账号授权。当前版本不会在未授权情况下自动发布。

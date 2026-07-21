@@ -1,4 +1,4 @@
-name: Update global short-video report V5
+name: Update AI global short-video intelligence V10
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,15 +21,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate V5 report
+      - name: Generate V10 intelligence report
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/collect_report.py
 
-      - name: Commit daily update
+      - name: Commit intelligence update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data archive
-          git diff --cached --quiet || git commit -m "daily: update V5 trend report"
+          git diff --cached --quiet || git commit -m "daily: update V10 intelligence"
           git push
