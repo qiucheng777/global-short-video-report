@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, os, re, time, hashlib, urllib.parse, urllib.request
+import hashlib, json, os, re, time, urllib.parse, urllib.request
+from collections import Counter
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 TZ=timezone(timedelta(hours=3))
-UA={"User-Agent":"Mozilla/5.0 TrendReportBot/1.0"}
+UA={"User-Agent":"Mozilla/5.0 TrendReportBot/5.0"}
+YT_KEY=os.getenv("YOUTUBE_API_KEY","").strip()
 
 GLOBAL_QUERIES=[
-("YouTube Shorts","AI工具","site:youtube.com/shorts AI tools shorts"),
-("YouTube Shorts","知识科普","site:youtube.com/shorts science explained"),
+("YouTube Shorts","AI工具","AI tools shorts"),
+("YouTube Shorts","知识科普","science explained shorts"),
+("YouTube Shorts","旅行","travel shorts"),
 ("TikTok","生活反差","site:tiktok.com viral life story"),
 ("TikTok","挑战","site:tiktok.com challenge viral"),
-("Instagram Reels","旅行","site:instagram.com/reel travel"),
 ("Instagram Reels","美食","site:instagram.com/reel food"),
 ]
 CHINA_QUERIES=[
@@ -26,101 +28,137 @@ CHINA_QUERIES=[
 ("视频号","家庭教育","视频号 家庭教育 热门"),
 ]
 
-def fetch(url:str)->bytes:
-    req=urllib.request.Request(url,headers=UA)
-    with urllib.request.urlopen(req,timeout=25) as r:return r.read()
+def http_json(url,retries=3):
+    last=None
+    for i in range(retries):
+        try:
+            req=urllib.request.Request(url,headers=UA)
+            with urllib.request.urlopen(req,timeout=25) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except Exception as e:
+            last=e; time.sleep(1.5*(i+1))
+    raise last
 
-def google_news(query:str):
+def http_bytes(url,retries=3):
+    last=None
+    for i in range(retries):
+        try:
+            req=urllib.request.Request(url,headers=UA)
+            with urllib.request.urlopen(req,timeout=25) as r:return r.read()
+        except Exception as e:
+            last=e;time.sleep(1.5*(i+1))
+    raise last
+
+def yt_search(query,max_results=8):
+    if not YT_KEY:return []
+    q=urllib.parse.quote(query)
+    url=f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults={max_results}&q={q}&key={YT_KEY}"
+    data=http_json(url)
+    ids=[x["id"]["videoId"] for x in data.get("items",[]) if x.get("id",{}).get("videoId")]
+    if not ids:return []
+    u="https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id="+",".join(ids)+"&key="+YT_KEY
+    vd=http_json(u)
+    out=[]
+    for x in vd.get("items",[]):
+        sn=x.get("snippet",{}); st=x.get("statistics",{})
+        out.append({
+          "title":sn.get("title",""),"url":"https://www.youtube.com/watch?v="+x["id"],
+          "source":sn.get("channelTitle","YouTube"),"published":sn.get("publishedAt",""),
+          "thumbnail":((sn.get("thumbnails",{}).get("medium") or sn.get("thumbnails",{}).get("default") or {}).get("url","")),
+          "signal":f"播放 {st.get('viewCount','?')} · 赞 {st.get('likeCount','?')} · 评论 {st.get('commentCount','?')}"
+        })
+    return out
+
+def news_rss(query):
     url="https://news.google.com/rss/search?q="+urllib.parse.quote(query)+"&hl=zh-CN&gl=US&ceid=US:zh-Hans"
     try:
-        root=ET.fromstring(fetch(url))
+        root=ET.fromstring(http_bytes(url))
         out=[]
         for it in root.findall(".//item")[:8]:
-            title=(it.findtext("title") or "").strip()
-            link=(it.findtext("link") or "").strip()
-            source=(it.findtext("source") or "Google News RSS").strip()
-            pub=(it.findtext("pubDate") or "").strip()
-            out.append({"title":title,"url":link,"source":source,"published":pub})
+            out.append({"title":(it.findtext("title") or "").strip(),"url":(it.findtext("link") or "").strip(),
+            "source":(it.findtext("source") or "Google News RSS").strip(),"published":(it.findtext("pubDate") or "").strip(),
+            "thumbnail":"","signal":"近期公开网页/RSS提及"})
         return out
-    except Exception as e:
-        return []
+    except Exception:return []
 
-def classify_reason(cat,title):
-    rules={
-      "AI工具":"结果先行 + 效率对比 + 可复制流程",
-      "知识科普":"反常识 + 单点结论 + 高信息密度",
-      "生活反差":"真实感 + 文化差异 + 评论驱动",
-      "挑战":"连续剧结构 + 悬念 + 结果验证",
-      "旅行":"地点向往 + 镜头密度 + 收藏价值",
-      "美食":"视觉满足 + 过程压缩 + 无语言门槛",
-      "AI效率":"痛点明确 + 工作流演示 + 强实用性",
-      "情绪共鸣":"强代入 + 留白 + 转发属性",
-      "真实生活":"人物关系 + 真实记录 + 情绪价值",
-      "乡村美食":"烟火气 + 完整过程 + 场景稀缺",
-      "家庭教育":"家长共鸣 + 讨论性 + 熟人传播",
-    }
-    return rules.get(cat,"清晰钩子 + 快节奏 + 可讨论")
+def why(cat):
+    m={"AI工具":"结果先行 + 效率对比 + 可复制流程","知识科普":"反常识 + 高信息密度","旅行":"地点向往 + 收藏价值",
+    "生活反差":"真实感 + 文化差异","挑战":"连续剧结构 + 悬念","美食":"视觉满足 + 无语言门槛","AI效率":"痛点明确 + 工作流演示",
+    "情绪共鸣":"强代入 + 留白","真实生活":"人物关系 + 真实记录","乡村美食":"烟火气 + 完整过程","家庭教育":"讨论性 + 熟人传播"}
+    return m.get(cat,"清晰钩子 + 快节奏 + 可讨论")
 
 def build(queries,limit=10):
     pool=[]
     for platform,cat,q in queries:
-        for x in google_news(q):
-            key=hashlib.md5((x["title"]+x["url"]).encode()).hexdigest()
-            pool.append({
-              "id":key,"platform":platform,"category":cat,"title":x["title"][:120],
-              "source":x["source"],"signal":"近期公开网页/RSS提及",
-              "why":classify_reason(cat,x["title"]),
-              "hook":"先展示结果，再解释过程","url":x["url"],"published":x["published"]
-            })
-        time.sleep(.4)
+        items=yt_search(q) if platform=="YouTube Shorts" else news_rss(q)
+        for x in items:
+            pool.append({"platform":platform,"category":cat,"title":x["title"][:140],"source":x["source"],
+            "signal":x["signal"],"why":why(cat),"hook":"先展示结果，再解释过程","url":x["url"],"thumbnail":x.get("thumbnail",""),
+            "published":x.get("published","")})
+        time.sleep(.3)
+    # Deduplicate by normalized title and URL.
     seen=set();out=[]
     for x in pool:
-        t=re.sub(r"\s+"," ",x["title"]).lower()
-        if t in seen:continue
-        seen.add(t);out.append(x)
+        key=re.sub(r"\W+","",x["title"]).lower()[:100] or x["url"]
+        if key in seen:continue
+        seen.add(key);out.append(x)
         if len(out)>=limit:break
     while len(out)<limit:
         i=len(out)+1
-        out.append({"platform":"公开数据不足","category":"待核验","title":f"第 {i} 位暂无足够公开证据",
-        "source":"—","signal":"公开数据不可完整验证","why":"不编造排名","hook":"—","url":""})
+        out.append({"platform":"公开数据不足","category":"待核验","title":f"第 {i} 位暂无足够公开证据","source":"—",
+        "signal":"公开数据不可完整验证","why":"不编造排名","hook":"—","url":"","thumbnail":""})
     return out
 
-def ideas(topcats):
+def load_archives():
+    items=[]
+    for p in sorted((ROOT/"archive").glob("*/*/*.json"),reverse=True):
+        try:items.append(json.loads(p.read_text(encoding="utf-8")))
+        except Exception:pass
+    return items
+
+def period_summary(current):
+    hist=load_archives()[:365]
+    cats=Counter()
+    for d in hist+[current]:
+        for x in d.get("global_top10",[])+d.get("china_top10",[]):
+            if x.get("category")!="待核验":cats[x.get("category","其他")]+=1
+    top="、".join([x for x,_ in cats.most_common(3)]) or "公开数据不足"
+    return {
+      "本周":f"近7日高频方向：{top}。重点观察持续出现且公开指标可验证的内容。",
+      "本月":f"近30日主要趋势集中在：{top}。优先制作可跨平台改编的选题。",
+      "本季度":f"季度方向以 {top} 为主。连续剧、前后对比和高信息密度内容更具复用价值。",
+      "本年度":f"年度趋势显示，{top} 持续获得关注；真实体验与可信结果比单纯工具展示更重要。"
+    }
+
+def ideas():
     return [
-      {"title":"同一选题的中外双版本实验","hook":"同一个故事，为什么中国版和海外版要用两种开头？","script":"先展示海外版：结果先行、字幕更少、视觉更强。再展示中国版：人物关系、情绪铺垫、结尾反转。最后给出改编公式：海外内容进入中国，加关系与情绪；中国内容走向海外，删铺垫、提前结果。"},
-      {"title":"30秒判断短视频是否值得拍","hook":"别先看点赞，先看三个结构信号。","script":"第一，前三秒是否提出冲突；第二，每五秒是否有新信息；第三，结尾是否自然引导评论、收藏或转发。三项各十分，低于二十分先重写脚本。"},
-      {"title":"四台设备组成24小时AI工作站","hook":"Mac、Windows、iPad和手机，怎样不再各自闲置？","script":"Mac负责创作，Windows负责自动化与兼容软件，iPad负责监控和远程控制，手机负责采集、通知和审批。四台设备不是四个工具，而是一套持续运行的AI系统。"}
+      {"title":"同一选题的中外双版本实验","hook":"同一个故事，为什么中国版和海外版要用两种开头？","script":"海外版先给结果和视觉冲击，中国版加入人物关系与情绪铺垫。最后总结：海外内容进入中国，加关系与情绪；中国内容走向海外，删铺垫、提前结果。"},
+      {"title":"30秒判断短视频是否值得拍","hook":"别先看点赞，先看三个结构信号。","script":"第一，前三秒是否提出冲突；第二，每五秒是否出现新信息；第三，结尾是否自然引导评论、收藏或转发。"},
+      {"title":"四台设备组成24小时AI工作站","hook":"Mac、Windows、iPad和手机，怎样不再各自闲置？","script":"Mac负责创作，Windows负责自动化，iPad负责监控，手机负责采集、通知与审批。四台设备组成一套持续运行的AI系统。"}
     ]
 
 def main():
     g=build(GLOBAL_QUERIES);c=build(CHINA_QUERIES)
-    cats={}
-    for x in g+c:
-        if x["category"]!="待核验":cats[x["category"]]=cats.get(x["category"],0)+1
-    top=max(cats,key=cats.get) if cats else "公开数据不足"
+    valid=[x for x in g+c if x["category"]!="待核验"]
+    cats=Counter(x["category"] for x in valid);plats=Counter(x["platform"] for x in valid)
+    topcat=cats.most_common(1)[0][0] if cats else "公开数据不足"
+    focus=plats.most_common(1)[0][0] if plats else "公开数据不足"
     now=datetime.now(TZ)
-    data={
-      "updated_at":now.strftime("%Y-%m-%d %H:%M"),
-      "kpis":{"top_category":top,"top_category_note":"基于当日公开趋势信号出现频次",
-      "cross_platform":"AI效率 / 真实生活 / 文化差异","data_status":"自动公开信号榜"},
-      "summary":[
-        "本报告通过公开网页、Google News RSS及可访问元数据生成趋势信号榜，不声称是各平台官方全量排行榜。",
-        "TikTok、Instagram、抖音、快手和视频号缺少统一且稳定的开放排行榜接口；抓取失败或证据不足时，系统明确标注“公开数据不可完整验证”。",
-        "网站每天土耳其时间16:00自动运行并保存历史归档；固定链接不改变。"
-      ],
-      "global_top10":g,"china_top10":c,"ideas":ideas(cats),
-      "archive":[]
-    }
-    day=now.strftime("%Y-%m-%d")
-    adir=ROOT/"archive"/now.strftime("%Y")/now.strftime("%m")
-    adir.mkdir(parents=True,exist_ok=True)
-    apath=adir/f"{day}.json"
-    apath.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
-    # all archive json links
+    data={"updated_at":now.strftime("%Y-%m-%d %H:%M"),"kpis":{"top_category":topcat,
+    "top_category_note":"按当日公开趋势信号出现频次","focus_platform":focus,
+    "data_status":"YouTube官方API + 公开RSS" if YT_KEY else "公开RSS（未配置YouTube API）"},
+    "summary":[
+      "V5 已启用自动去重、失败重试、缩略图、公开指标字段以及周期汇总。",
+      "配置 YOUTUBE_API_KEY 后，YouTube 条目将使用官方 Data API 获取公开视频标题、频道、发布时间、播放量、点赞量、评论量与缩略图。",
+      "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
+    ],"global_top10":g,"china_top10":c,"ideas":ideas(),"archive":[]}
+    data["period_reports"]=period_summary(data)
+    day=now.strftime("%Y-%m-%d");adir=ROOT/"archive"/now.strftime("%Y")/now.strftime("%m");adir.mkdir(parents=True,exist_ok=True)
+    (adir/f"{day}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
     ars=[]
-    for p in sorted((ROOT/"archive").glob("*/*/*.json"), reverse=True)[:120]:
+    for p in sorted((ROOT/"archive").glob("*/*/*.json"),reverse=True)[:180]:
         ars.append({"label":p.stem+" 日报","url":str(p.relative_to(ROOT)).replace("\\","/")})
     data["archive"]=ars
     (ROOT/"data"/"latest.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
-    print("generated",day,len(g),len(c))
+    print("V5 generated",day,len(valid),"valid items","YT API",bool(YT_KEY))
 if __name__=="__main__":main()

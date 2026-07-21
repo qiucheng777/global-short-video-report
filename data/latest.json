@@ -1,281 +1,40 @@
 {
-  "updated_at": "2026-07-21 23:16",
+  "updated_at": "首次运行工作流后生成",
   "kpis": {
-    "top_category": "AI工具",
-    "top_category_note": "基于当日公开趋势信号出现频次",
-    "cross_platform": "AI效率 / 真实生活 / 文化差异",
-    "data_status": "自动公开信号榜"
+    "top_category": "等待首次采集",
+    "top_category_note": "运行 Actions 后自动生成",
+    "focus_platform": "等待首次采集",
+    "data_status": "V5 已就绪"
   },
   "summary": [
-    "本报告通过公开网页、Google News RSS及可访问元数据生成趋势信号榜，不声称是各平台官方全量排行榜。",
-    "TikTok、Instagram、抖音、快手和视频号缺少统一且稳定的开放排行榜接口；抓取失败或证据不足时，系统明确标注“公开数据不可完整验证”。",
-    "网站每天土耳其时间16:00自动运行并保存历史归档；固定链接不改变。"
+    "V5 数据增强版已经准备完成。",
+    "首次运行 GitHub Actions 后会生成最新日报。",
+    "配置 YouTube API 密钥后，可获得官方公开视频指标。"
   ],
-  "global_top10": [
-    {
-      "id": "12d5f2716057ff22deb301bc3812a4bf",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "What Is an AI Agent, Actually? - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RWmhNdUJFWnp2VGgxY0VzbzlaSm9vYWs5STZtU0pSRTdKNDduRUE3a3lpQ1BXZHl2dzBaMzh5TmlqWHVGZ1lkRTVkWmVjUWo5NmttaA?oc=5",
-      "published": "Fri, 17 Jul 2026 16:04:35 GMT"
-    },
-    {
-      "id": "adfe0dbf1361440c76c9a0f360b8c996",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "The Harsh Reality of Working in IT 💯 #shorts #ai #techjobs - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mZTdBUTU1Vk9XbjhZVjdlTHFTWUQ2LWE3d2QyVVVHUEVKUkp6MnRvUy1YMW5CUjdxd3dJTTBmTGhzTHZpeURFbC04YVpDYUxwaS1URQ?oc=5",
-      "published": "Fri, 17 Jul 2026 14:31:52 GMT"
-    },
-    {
-      "id": "33ab936dc841e49fddfa09a2dfc9b5db",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "Haaland’s Singing Had Mbappé and Vinícius Worried 😬🎵 #parody #football #haaland #worldcup - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16VlZ4d2xjYm5iMzUtbU9QeTAzZk1TeUtsMk9qckt4ZE9tVmxDaFRPTTJ6aTJPeGRMUVBaUG9KMVNYd1FISzZEZWx1UjZYX3VYQ2JLcA?oc=5",
-      "published": "Sun, 19 Jul 2026 10:35:37 GMT"
-    },
-    {
-      "id": "470ffc7092e906c56887a10cef760093",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "A 3-person team vs 50-person agency #AI #FutureOfWork #agency - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLVFFDVU1QSWg3UmFjdU9NcFZoblgxYzgycnhMSXcydzZNOXhFcktmcEJQT1I4Z0FiRHBrSXRPMFJVbENSenhHdm1uY3lNeHZsNDZyTg?oc=5",
-      "published": "Fri, 17 Jul 2026 03:00:30 GMT"
-    },
-    {
-      "id": "e185086a2f589fa6efae5d3af5c9e068",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "BIGBANG unveils 'COSMOS' concept for new journey; Manila show schedule added - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fVlNJa1UyU29nNDNVN3I4ekN2dDRZZS1NQjZ3UVpSTlJ5V1hkVjFWOWJIWFRQZXdPaHRqbjRQTF82cUo1Q2w0ZFZCY1c5Unp3MkdnTQ?oc=5",
-      "published": "Fri, 17 Jul 2026 04:00:09 GMT"
-    },
-    {
-      "id": "a7ba4fc8b4c65bb4076f157d222bca58",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "they're stealing our art to teach robots to make art - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03MXNBQXVlVXl5bHNzdUE1dmZHVHBZY3RsXy1xZkJ3OVlPeThhOF9aZS1TUmxhLTZyMXlZelRlRGVmenpVckdSZWpJY0RpUFM3dmFvOA?oc=5",
-      "published": "Mon, 20 Jul 2026 23:42:28 GMT"
-    },
-    {
-      "id": "55c83d06d62bfec9655ec3fec3058a85",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "This 1 Free Tool Connects to 118+ Apps Instantly! 🤯 - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PbzFZNDR0SnpfN2h3eWJaa2c3cU5FdXZWc3hSTF9OTFVvRkQ5bkpRYm9uT3J6WDJZSHZzcDhBRXNlZWpCWDk5QkZvYXFIazhOQ3ZxVg?oc=5",
-      "published": "Sat, 18 Jul 2026 05:36:54 GMT"
-    },
-    {
-      "id": "f3fb2e563bc6a8e9ad759b3ed06fb044",
-      "platform": "YouTube Shorts",
-      "category": "AI工具",
-      "title": "Google SEO & AI Tools: Startup Growth Strategy Revealed #shorts - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "结果先行 + 效率对比 + 可复制流程",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QZFN1a3JrR1dCLTFNVnYwS0pwYnVzc0VOUWt0TUVlOXQtQjdUa2xWdWNocFA2d0w5amdxaVNLNWpzaFZXS002S1gybnYtRmlnZnBsdw?oc=5",
-      "published": "Wed, 15 Jul 2026 09:47:29 GMT"
-    },
-    {
-      "id": "c176c92fb875fefdf975f6289cb9b264",
-      "platform": "YouTube Shorts",
-      "category": "知识科普",
-      "title": "Will Sonam Wangchuk Survive? - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "反常识 + 单点结论 + 高信息密度",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15N29oUkZRRGx1Q3QtR0pwUjNPbC1VcDBQSHNlakhUUUJsNXhGZ3FTY1ZfX1F2QVBHcDAxU1BrcGJvV1Y3YmNtSVZBcy1tWGdVbExSWQ?oc=5",
-      "published": "Thu, 16 Jul 2026 05:27:35 GMT"
-    },
-    {
-      "id": "d5310825e7551b4f8c1d83b21265f0bf",
-      "platform": "YouTube Shorts",
-      "category": "知识科普",
-      "title": "Ce qui se cache au centre de la Terre 🌍 #science #explication #planete #magma #earth - YouTube",
-      "source": "YouTube",
-      "signal": "近期公开网页/RSS提及",
-      "why": "反常识 + 单点结论 + 高信息密度",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aaVY3aW5nYm13cm9JSm1GSVBOMDRoN291WlVScUpDUkVneE9ubGxJRDRlbjVzNjR6OVFvZEtqREpfT3RJNEpVR2dfcllXSHlzU1hDZg?oc=5",
-      "published": "Sat, 04 Jul 2026 16:00:21 GMT"
-    }
-  ],
-  "china_top10": [
-    {
-      "id": "df8e42385c1d28bc67f498d6d83e2ffe",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "像塑｜抖音AR特效开放平台 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9NTExnYVo3ZVphalkwZjUxWFB6S2x0NDJsd0drZGUzQnNKcGpacWFpekpRNFpJY1lNSXRaUFQxUQ?oc=5",
-      "published": "Sat, 01 Dec 2018 10:34:15 GMT"
-    },
-    {
-      "id": "68c3dd2a9a0fa8a7c612912b55f36392",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "zt230警告色带进入怎么解决 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wc2hsek42N3dmUlVNNVg3dXhrblc4a0JtTlo0YmJENllQNlZaT3k0aXk0SzdGX0JENXRaMm9KdlV4VHhIc2ZpODREdmhlbDVaOE4xM2tUN2FFeXV6RHc?oc=5",
-      "published": "Fri, 02 Aug 2024 11:04:59 GMT"
-    },
-    {
-      "id": "bbb2d5cd348dd7b3af74d7f772c2058a",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "gpt5美元的api能用多久 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uMXlJSk96U1l0MEFPT2g0ejQ0TGpKZ2hEOEFfYklMaHRTall5MjBrVTFBTnJMUDRtQk5VWHdfUGltOC1ZNWg1aVJKUW0xOExESzR4WGJKalNqYXl1Wnc?oc=5",
-      "published": "Sat, 18 Nov 2023 08:00:00 GMT"
-    },
-    {
-      "id": "550b15a286fa71354b41e10542f3941d",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "snapgene特征序列怎么添加 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10MmFzZnZMY0JzTEE3ZDhqVlk2dGlpS1NEd0hrRldNWFk2ZlJLYnhpS0I2bWZ1ZlJXWnNSVi1qZXdaMmRaN2NuVUZKaWV2X21xZ2RwWEs1d1FLLVRTSGc?oc=5",
-      "published": "Sun, 21 Apr 2024 07:00:00 GMT"
-    },
-    {
-      "id": "68337cdac322a4092ab2d4026615f1bb",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "obs不显示绿幕特效怎么弄 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HdzdvdFY0M3JSSG5TaG5nSjdJM3pJbHF1T2xhWHdmOFhiUUNmRENyWDNGQk15Vk5OdEduOVYzMHptOG1uQkZ2WlNaR1FWZ3BicjQ4Q3JLZmVDUUp0LWc?oc=5",
-      "published": "Thu, 18 Apr 2024 19:08:29 GMT"
-    },
-    {
-      "id": "43b74b99d311b30f9dcaeb7fb7e883ee",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "如何用gpt做游戏脚本 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xU2tieG13bk9ZVEZpc1IzazFtbEVsVnNPRXZjeV94N3Y5UWV3c3o1Sk9xNWpkQk5JdEZGUUx2cGJhX0dPQ1BYenpOZ0VkbHhhTUxoWWZNWUFna1gyM2c?oc=5",
-      "published": "Sun, 28 Jul 2024 18:40:47 GMT"
-    },
-    {
-      "id": "9176182005e0ee56a9677c2e56e94816",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "ldplayer9box是什么 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12M0VqRVdIS3Y1OWFGdVI5SUpiUjZqVmZmZ0ppUUQwMUtXV2JsSWwwWm9OWU5hcm9iQjJvTWtRbTVOYmxoRkt5NUVnOHhqbjR3SzB6czdUaUQwODBuR1E?oc=5",
-      "published": "Sun, 12 May 2024 10:34:55 GMT"
-    },
-    {
-      "id": "e450a0d48d82a7e32f5e0f0c40167e18",
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "- 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示 + 强实用性",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1GZXZYYWc3NExEQ0JVbjZJWENGSG12WHFULWNsdTRKbW1xeDZBMmlwYlB5cXd2RDI0R3A5SXI2Q3NVUQ?oc=5",
-      "published": "Tue, 21 Jul 2026 09:09:37 GMT"
-    },
-    {
-      "id": "73929d82d7ebd95c0fce0728c42b605f",
-      "platform": "快手",
-      "category": "真实生活",
-      "title": "Drag to right to fill the puzzle - v.kuaishou.com",
-      "source": "v.kuaishou.com",
-      "signal": "近期公开网页/RSS提及",
-      "why": "人物关系 + 真实记录 + 情绪价值",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBXWmhLaXhXcTBDZFMzYW50QWF5M3d3TDd0WUI3SU5xeXg0MlppUzVOOXV0UWJVQW9ZQ2hWdHh3WS1XRmM?oc=5",
-      "published": "Fri, 12 Jul 2024 03:55:34 GMT"
-    },
-    {
-      "id": "1f89fa6c0fa3e689f3d32f3724865cb2",
-      "platform": "快手",
-      "category": "真实生活",
-      "title": "KuaiShou English Website - kuaishou.com",
-      "source": "kuaishou.com",
-      "signal": "近期公开网页/RSS提及",
-      "why": "人物关系 + 真实记录 + 情绪价值",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE90Z3UwV0N6QVYwNTRoRXZjVE12ZnBKWnNka1RZZzIwSU5YNVFYZUVDX1kzUkpidVhxYTBwRzRULUU?oc=5",
-      "published": "Fri, 06 Nov 2020 06:56:38 GMT"
-    }
-  ],
+  "global_top10": [],
+  "china_top10": [],
   "ideas": [
     {
       "title": "同一选题的中外双版本实验",
       "hook": "同一个故事，为什么中国版和海外版要用两种开头？",
-      "script": "先展示海外版：结果先行、字幕更少、视觉更强。再展示中国版：人物关系、情绪铺垫、结尾反转。最后给出改编公式：海外内容进入中国，加关系与情绪；中国内容走向海外，删铺垫、提前结果。"
+      "script": "海外版先给结果，中国版加入人物关系与情绪铺垫。"
     },
     {
       "title": "30秒判断短视频是否值得拍",
       "hook": "别先看点赞，先看三个结构信号。",
-      "script": "第一，前三秒是否提出冲突；第二，每五秒是否有新信息；第三，结尾是否自然引导评论、收藏或转发。三项各十分，低于二十分先重写脚本。"
+      "script": "前三秒冲突、每五秒新信息、结尾互动。"
     },
     {
       "title": "四台设备组成24小时AI工作站",
-      "hook": "Mac、Windows、iPad和手机，怎样不再各自闲置？",
-      "script": "Mac负责创作，Windows负责自动化与兼容软件，iPad负责监控和远程控制，手机负责采集、通知和审批。四台设备不是四个工具，而是一套持续运行的AI系统。"
+      "hook": "四台设备怎样不再各自闲置？",
+      "script": "Mac创作、Windows自动化、iPad监控、手机审批。"
     }
   ],
-  "archive": [
-    {
-      "label": "2026-07-21 日报",
-      "url": "archive/2026/07/2026-07-21.json"
-    }
-  ]
+  "period_reports": {
+    "本周": "等待历史数据",
+    "本月": "等待历史数据",
+    "本季度": "等待历史数据",
+    "本年度": "等待历史数据"
+  },
+  "archive": []
 }

@@ -2,38 +2,54 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>全球短视频趋势中心</title>
+<title>全球短视频趋势中心 V5</title>
+<meta name="description" content="全球短视频趋势日报、周报、月报、季报与年度分析">
 <link rel="stylesheet" href="assets/style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 <header class="hero"><div class="wrap hero-grid">
-<div><div class="eyebrow">GLOBAL SHORT VIDEO INTELLIGENCE</div><h1>全球短视频趋势中心</h1>
-<p>固定链接 · 每日更新 · 国内外趋势信号 · 可复用脚本</p></div>
+<div><div class="eyebrow">GLOBAL SHORT VIDEO INTELLIGENCE · V5</div><h1>全球短视频趋势中心</h1>
+<p>数据增强版 · 公开视频数据 · 自动去重 · 失败重试 · 周/月/季/年汇总</p></div>
 <div class="status"><span></span><div><b>自动更新状态</b><small id="updated">读取中…</small></div></div>
 </div></header>
-<nav><div class="wrap navin"><a href="#summary">摘要</a><a href="#global">国外</a><a href="#china">中国</a><a href="#ideas">选题</a><a href="#charts">趋势图</a><a href="#archive">归档</a></div></nav>
+
+<nav><div class="wrap navin">
+<a href="#summary">摘要</a><a href="#global">国外</a><a href="#china">中国</a>
+<a href="#ideas">选题</a><a href="#charts">趋势图</a><a href="#reports">周期报告</a><a href="#archive">归档</a>
+</div></nav>
+
 <main class="wrap">
 <section id="summary" class="kpis">
 <div class="card"><label>今日强势方向</label><strong id="k1">—</strong><small id="k1n">—</small></div>
-<div class="card"><label>跨平台机会</label><strong id="k2">—</strong><small>适合中外互改</small></div>
-<div class="card"><label>数据状态</label><strong id="k3">—</strong><small>公开来源、失败则标注</small></div>
+<div class="card"><label>重点平台</label><strong id="k2">—</strong><small>按可核验数据量</small></div>
+<div class="card"><label>数据质量</label><strong id="k3">—</strong><small>失败则降级，不伪造</small></div>
 <div class="card"><label>更新频率</label><strong>每日 16:00</strong><small>土耳其时间</small></div>
 </section>
 
-<section class="card"><div class="head"><h2>今日趋势摘要</h2><span class="pill">AI 分析</span></div><div id="summaryText"></div></section>
+<section class="card"><div class="head"><h2>今日趋势摘要</h2><span class="pill">自动生成</span></div><div id="summaryText"></div></section>
 
-<section id="global" class="card"><div class="head"><h2>国外平台 Top 10 趋势信号</h2><input id="qg" placeholder="搜索…"></div>
-<div class="table"><table><thead><tr><th>#</th><th>平台</th><th>方向</th><th>标题</th><th>来源</th><th>信号</th><th>原因</th><th>链接</th></tr></thead><tbody id="gt"></tbody></table></div></section>
+<section id="global" class="card"><div class="head"><h2>国外平台 Top 10</h2><input id="qg" placeholder="搜索平台、方向、标题…"></div>
+<div class="table"><table><thead><tr>
+<th>#</th><th>封面</th><th>平台</th><th>方向</th><th>标题</th><th>来源</th><th>公开指标</th><th>原因</th><th>链接</th>
+</tr></thead><tbody id="gt"></tbody></table></div></section>
 
-<section id="china" class="card"><div class="head"><h2>中国平台 Top 10 趋势信号</h2><input id="qc" placeholder="搜索…"></div>
-<div class="table"><table><thead><tr><th>#</th><th>平台</th><th>方向</th><th>标题</th><th>来源</th><th>信号</th><th>原因</th><th>链接</th></tr></thead><tbody id="ct"></tbody></table></div></section>
+<section id="china" class="card"><div class="head"><h2>中国平台 Top 10</h2><input id="qc" placeholder="搜索平台、方向、标题…"></div>
+<div class="table"><table><thead><tr>
+<th>#</th><th>封面</th><th>平台</th><th>方向</th><th>标题</th><th>来源</th><th>公开指标</th><th>原因</th><th>链接</th>
+</tr></thead><tbody id="ct"></tbody></table></div></section>
 
-<section id="ideas" class="card"><div class="head"><h2>最值得立即拍摄的 3 个选题</h2></div><div id="ideasGrid" class="ideas"></div></section>
+<section id="ideas" class="card"><div class="head"><h2>最值得立即制作的 3 个选题</h2></div><div id="ideasGrid" class="ideas"></div></section>
 
-<section id="charts" class="card"><div class="head"><h2>趋势结构</h2></div><div class="charts"><canvas id="catChart"></canvas><canvas id="platformChart"></canvas></div></section>
+<section id="charts" class="card"><div class="head"><h2>趋势结构</h2></div><div class="charts">
+<div><h3>赛道分布</h3><canvas id="catChart"></canvas></div>
+<div><h3>平台分布</h3><canvas id="platformChart"></canvas></div>
+</div></section>
+
+<section id="reports" class="card"><div class="head"><h2>周期报告</h2></div><div id="periodGrid" class="periods"></div></section>
 
 <section id="archive" class="card"><div class="head"><h2>历史归档</h2></div><div id="archives" class="archives"></div></section>
 </main>
-<footer class="wrap">排名定义：这是基于公开网页、新闻/RSS、可访问元数据形成的“趋势信号榜”，不等同于平台官方全量排行榜。无法核验的数据不会编造。</footer>
+
+<footer class="wrap">说明：YouTube 可通过官方 API 获取公开视频指标；其他平台根据公开网页、RSS 或可访问元数据形成趋势信号榜。无法核验时明确标注，不声称为平台官方全量排行榜。</footer>
 <script src="assets/app.js"></script></body></html>

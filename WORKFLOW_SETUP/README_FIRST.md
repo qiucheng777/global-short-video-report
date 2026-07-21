@@ -1,0 +1,1 @@
+在 GitHub 网页创建 `.github/workflows/daily.yml`，粘贴本目录 daily.yml 的全部内容。
