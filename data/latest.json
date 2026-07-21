@@ -1,40 +1,287 @@
 {
-  "updated_at": "首次运行工作流后生成",
+  "updated_at": "2026-07-21 23:30",
   "kpis": {
-    "top_category": "等待首次采集",
-    "top_category_note": "运行 Actions 后自动生成",
-    "focus_platform": "等待首次采集",
-    "data_status": "V5 已就绪"
+    "top_category": "生活反差",
+    "top_category_note": "按当日公开趋势信号出现频次",
+    "focus_platform": "TikTok",
+    "data_status": "公开RSS（未配置YouTube API）"
   },
   "summary": [
-    "V5 数据增强版已经准备完成。",
-    "首次运行 GitHub Actions 后会生成最新日报。",
-    "配置 YouTube API 密钥后，可获得官方公开视频指标。"
+    "V5 已启用自动去重、失败重试、缩略图、公开指标字段以及周期汇总。",
+    "配置 YOUTUBE_API_KEY 后，YouTube 条目将使用官方 Data API 获取公开视频标题、频道、发布时间、播放量、点赞量、评论量与缩略图。",
+    "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
   ],
-  "global_top10": [],
-  "china_top10": [],
+  "global_top10": [
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "The fact that i even have to post this is insane. But please know 100% of every clip yall have tagged me in is a complete lie. But don’t wor",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YYnk2UzRvcHEtT1dkeng2MFBWUVdrd0VJcmFHTElaSEVURDgwUnF0amtEc1dpRmNMMVZ6VGI0MmJWSVR6dlJxalV3dFFadlhTSnlXQk82S3pXYWg5WFVZaTk5VTBZb1RPUWVZdA?oc=5",
+      "thumbnail": "",
+      "published": "Tue, 21 Jul 2026 15:52:05 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "TikTok One Creative Suite - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LT1ZqVXdXOVhvd1pjZ3d2ZnVKMXlmTHB3WThOaWN5VUFKRWlucDZPSzVGWHRYVzRUWFZTYjc0ZjdBazEwQzZwYlhreUF5ZjB2eUJHOUtWdkxFQQ?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 13 May 2026 08:29:43 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "TikTok Symphony Creative Studio - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mRWVBV0c1NFJJaHJPWF9nRUdvWXcwMTAxREJXb01KV21TT29RTzBYNlR4MTFKcnI4ZFd0R0ZDYi1ySEVUWEg0OUVlUmV2YWhKU0NnMVFuZEZMUnBGQjZKZ1JuTmQ?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 08 Feb 2025 05:45:24 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "My Best Friend Was Missing 🚨 . #3danimation #animationart #digitalart #herytstory #creativecontent animationtrends creatorsearchinsig hts - ",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VSUdPbmNzcDUyM2M0SWlFbnJHU190TFJxMl92TTB4czM1MnpSOUtuUm9DNS1GX0hPX0Y0QzlLTDRQcXZjM3RoVVVUV2tVWlhXcVF6V2hDN1llTThWMnM4WXZuN1BHdVg5Y0ZpXw?oc=5",
+      "thumbnail": "",
+      "published": "Tue, 21 Jul 2026 12:38:12 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Case Studies: Success Stories and Inspirational Brand Results - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfbE16NFdfeVFtaVF2WEotY1RyZGk0RGpXVW00T3NHM25DbERLS0R5Mlc0bVluNmRCaTQyN1ZpaE9ucjFrb3dvS0Q5c1V3YktwWi05a1dSTmUtUQ?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 19 Sep 2024 15:30:45 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Document your stories 🤷‍♂️ Most people struggle to tell 5 stories about themselves. It's not that you don't have interesting stories, you ju",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPNnllWDY2V2NUdGhnWFpfekpJa1VZT20tak8xSGN1MlR0R3hlNzhINmpKR2U3U2hsVnExbHA2UFBFVEhMSDZ3OVRSQkJqNnNXOTRhcTl5WHZOcDE3bFVfNXkwWFI3WXV5?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 09 Dec 2024 08:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Story of my life. #fy #foryoupage #brehm #viral - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IcXJxaFZHWXJXeVBlWDFPM1pRbzVjdnMwcVhEdXJORXppN2tlY0d5aGZIdGdMSzBSM085RE4xaXZmQUM0Ui1BbFpxMkRIYXlMOGZyYUxyT1drX2s4VkE1SHpLUkxxNGpVVFRKUW5n?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 04 Apr 2022 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "How To Post On Your Story #tiktoktips #tiktoktutorial #viraltiktokstrategies - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hUjR3QktUcmlUWjVmcGFRbm4xWmZqVWJNdGRpVlpsMjhmNUVwX3FBUWltUU9MdHdJOHJvelVhMXd3NVdMRzBMZ1liaVpyRkRoWldSWms0LVhGMVRpUWRhU1J2UW1GR2ZGZl9sV0V6UUJFXzlnbVdrMElXNA?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 03 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "Shakespeare or Woah Vicky? ✍️ We put the viral sensation to the test and nobody was prepared for how difficult things got. - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zX0tyWUFtTFh2cHRYUDRBSkNwRXVXNS1VMnJqcGl1SF9SZ2JsRUtiTDgyU0ZVOVYzTlBSak56X0I5NWNWa1pISVdSYTNtLTRTeHEyZ1cxUFkweGY2TEg4UGYxMA?oc=5",
+      "thumbnail": "",
+      "published": "Tue, 19 May 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "#fyp - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05ZW5NajVZdmZpZTdfTmNwSVV0S0FJeXdPV0VqS0Y1X0N1d29MUUZnekNVQ2lNUDdzSDdhSFpfdnNMeGcyMGtlbFJOWVpGNEhhZDd0NU5YdDdRZ180OVRRSXZtandqLTRYa2g1UTd3WGp2Y0p6eWY1SlRR?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 18 Jul 2026 23:01:59 GMT"
+    }
+  ],
+  "china_top10": [
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "像塑｜抖音AR特效开放平台 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9NTExnYVo3ZVphalkwZjUxWFB6S2x0NDJsd0drZGUzQnNKcGpacWFpekpRNFpJY1lNSXRaUFQxUQ?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 01 Dec 2018 10:34:15 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "meta 秘塔 就是 脸书吗 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9keXdwYl9tWGxkcDFPVFM4VmlfVXhfd2NzZktlY3YzNEFFdUpmQm5za3V3empMeno2TE04VW5IRlpDckhxWDBxdFhYODU2dkNpWTNEYTZOZ3lGbGxtcnc?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 26 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "zt230警告色带进入怎么解决 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wc2hsek42N3dmUlVNNVg3dXhrblc4a0JtTlo0YmJENllQNlZaT3k0aXk0SzdGX0JENXRaMm9KdlV4VHhIc2ZpODREdmhlbDVaOE4xM2tUN2FFeXV6RHc?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 02 Aug 2024 11:04:59 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "gpt5美元的api能用多久 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uMXlJSk96U1l0MEFPT2g0ejQ0TGpKZ2hEOEFfYklMaHRTall5MjBrVTFBTnJMUDRtQk5VWHdfUGltOC1ZNWg1aVJKUW0xOExESzR4WGJKalNqYXl1Wnc?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 18 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "snapgene特征序列怎么添加 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10MmFzZnZMY0JzTEE3ZDhqVlk2dGlpS1NEd0hrRldNWFk2ZlJLYnhpS0I2bWZ1ZlJXWnNSVi1qZXdaMmRaN2NuVUZKaWV2X21xZ2RwWEs1d1FLLVRTSGc?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 21 Apr 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "obs不显示绿幕特效怎么弄 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HdzdvdFY0M3JSSG5TaG5nSjdJM3pJbHF1T2xhWHdmOFhiUUNmRENyWDNGQk15Vk5OdEduOVYzMHptOG1uQkZ2WlNaR1FWZ3BicjQ4Q3JLZmVDUUp0LWc?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 18 Apr 2024 19:08:29 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "如何用gpt做游戏脚本 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xU2tieG13bk9ZVEZpc1IzazFtbEVsVnNPRXZjeV94N3Y5UWV3c3o1Sk9xNWpkQk5JdEZGUUx2cGJhX0dPQ1BYenpOZ0VkbHhhTUxoWWZNWUFna1gyM2c?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 28 Jul 2024 18:40:47 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "ldplayer9box是什么 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12M0VqRVdIS3Y1OWFGdVI5SUpiUjZqVmZmZ0ppUUQwMUtXV2JsSWwwWm9OWU5hcm9iQjJvTWtRbTVOYmxoRkt5NUVnOHhqbjR3SzB6czdUaUQwODBuR1E?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 12 May 2024 10:34:55 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "情绪共鸣",
+      "title": "- 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "强代入 + 留白",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1GZXZYYWc3NExEQ0JVbjZJWENGSG12WHFULWNsdTRKbW1xeDZBMmlwYlB5cXd2RDI0R3A5SXI2Q3NVUQ?oc=5",
+      "thumbnail": "",
+      "published": "Tue, 21 Jul 2026 09:09:37 GMT"
+    },
+    {
+      "platform": "快手",
+      "category": "真实生活",
+      "title": "Drag to right to fill the puzzle - v.kuaishou.com",
+      "source": "v.kuaishou.com",
+      "signal": "近期公开网页/RSS提及",
+      "why": "人物关系 + 真实记录",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBXWmhLaXhXcTBDZFMzYW50QWF5M3d3TDd0WUI3SU5xeXg0MlppUzVOOXV0UWJVQW9ZQ2hWdHh3WS1XRmM?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 12 Jul 2024 03:55:34 GMT"
+    }
+  ],
   "ideas": [
     {
       "title": "同一选题的中外双版本实验",
       "hook": "同一个故事，为什么中国版和海外版要用两种开头？",
-      "script": "海外版先给结果，中国版加入人物关系与情绪铺垫。"
+      "script": "海外版先给结果和视觉冲击，中国版加入人物关系与情绪铺垫。最后总结：海外内容进入中国，加关系与情绪；中国内容走向海外，删铺垫、提前结果。"
     },
     {
       "title": "30秒判断短视频是否值得拍",
       "hook": "别先看点赞，先看三个结构信号。",
-      "script": "前三秒冲突、每五秒新信息、结尾互动。"
+      "script": "第一，前三秒是否提出冲突；第二，每五秒是否出现新信息；第三，结尾是否自然引导评论、收藏或转发。"
     },
     {
       "title": "四台设备组成24小时AI工作站",
-      "hook": "四台设备怎样不再各自闲置？",
-      "script": "Mac创作、Windows自动化、iPad监控、手机审批。"
+      "hook": "Mac、Windows、iPad和手机，怎样不再各自闲置？",
+      "script": "Mac负责创作，Windows负责自动化，iPad负责监控，手机负责采集、通知与审批。四台设备组成一套持续运行的AI系统。"
+    }
+  ],
+  "archive": [
+    {
+      "label": "2026-07-21 日报",
+      "url": "archive/2026/07/2026-07-21.json"
     }
   ],
   "period_reports": {
-    "本周": "等待历史数据",
-    "本月": "等待历史数据",
-    "本季度": "等待历史数据",
-    "本年度": "等待历史数据"
-  },
-  "archive": []
+    "本周": "近7日高频方向：AI效率、AI工具、生活反差。重点观察持续出现且公开指标可验证的内容。",
+    "本月": "近30日主要趋势集中在：AI效率、AI工具、生活反差。优先制作可跨平台改编的选题。",
+    "本季度": "季度方向以 AI效率、AI工具、生活反差 为主。连续剧、前后对比和高信息密度内容更具复用价值。",
+    "本年度": "年度趋势显示，AI效率、AI工具、生活反差 持续获得关注；真实体验与可信结果比单纯工具展示更重要。"
+  }
 }
