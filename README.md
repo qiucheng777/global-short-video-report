@@ -1,28 +1,26 @@
-# 全球短视频趋势中心
+# 全球短视频趋势中心 V2
 
-固定网站地址（开启 GitHub Pages 后）：
+固定地址：
 
 `https://qiucheng777.github.io/global-short-video-report/`
 
-## 上传后开启网站
+## 已实现
 
-1. 仓库顶部进入 **Settings**
-2. 左侧进入 **Pages**
-3. Build and deployment 的 Source 选择 **Deploy from a branch**
-4. Branch 选择 **main**，文件夹选择 **/(root)**
-5. 点击 **Save**
-6. 等待约 1–3 分钟后打开固定网址
+- 每天土耳其时间 16:00 自动运行
+- 自动采集公开网页和 RSS 趋势信号
+- 国外 Top10 与中国 Top10
+- 自动趋势摘要与拍摄选题
+- 每日 JSON 历史归档
+- 固定链接不变
+- 搜索、图表、手机适配
+- 数据不足时明确标注，不伪造榜单
 
-## 自动更新时间
+## 覆盖安装
 
-`.github/workflows/daily.yml` 已设置为每天土耳其时间 16:00 运行。
+将本压缩包解压后，把里面所有文件上传到原仓库根目录，选择覆盖同名文件并 Commit。
 
-当前自动程序只更新时间标记，不会伪造 TikTok、Instagram、抖音等平台排名。正式榜单需要接入合法 API、公开榜单或人工审核后的数据，写入 `data/latest.json`。
+## 首次立即运行
 
-## 修改日报
+仓库顶部进入 `Actions` → `Update global short-video report` → `Run workflow`。
 
-直接编辑：
-
-`data/latest.json`
-
-网页会自动读取最新内容，固定链接不变。
+以后每天自动运行，无需手动操作。
