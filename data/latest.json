@@ -1,0 +1,248 @@
+{
+  "updated_at": "2026-07-21 16:00",
+  "kpis": {
+    "top_category": "AI 工具实测",
+    "top_category_note": "高信息密度、结果先行、强对比",
+    "cross_platform": "文化差异 + 反转",
+    "focus_platform": "YouTube Shorts / 抖音",
+    "data_status": "演示框架"
+  },
+  "summary": [
+    "当前页面已经具备固定链接所需的完整前端结构。表格中的内容为演示数据，用于验证网页、搜索、手机适配和历史归档功能。",
+    "正式日报必须由公开、可核验的数据源更新。TikTok、Instagram、抖音等平台并不提供统一、开放、稳定的全球 Top 10 接口，因此自动程序不能凭空制造排名。",
+    "项目内已经预留每日 16:00（土耳其时间）运行的 GitHub Actions，以及 data/latest.json 数据入口。未来接入合法 API、公开榜单或人工审核结果后，固定网址无需变化。"
+  ],
+  "global_top10": [
+    {
+      "platform": "YouTube Shorts",
+      "category": "AI工具",
+      "title": "3个AI工具完成一天工作",
+      "creator": "示例账号 A",
+      "signal": "公开播放量待接入",
+      "why": "结果先行 + 快节奏演示",
+      "hook": "我把8小时工作压缩到了20分钟",
+      "url": "https://www.youtube.com/shorts/"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "不同国家早晨的第一件事",
+      "creator": "示例账号 B",
+      "signal": "公开趋势待核验",
+      "why": "文化差异 + 评论驱动",
+      "hook": "你所在的国家也是这样吗？",
+      "url": "https://www.tiktok.com/"
+    },
+    {
+      "platform": "Instagram Reels",
+      "category": "美食",
+      "title": "15秒完成街头小吃变装",
+      "creator": "示例账号 C",
+      "signal": "公开互动待核验",
+      "why": "视觉满足 + 无语言门槛",
+      "hook": "别眨眼，最后一秒完全变样",
+      "url": "https://www.instagram.com/reels/"
+    },
+    {
+      "platform": "YouTube Shorts",
+      "category": "知识",
+      "title": "一个误解改变你的认知",
+      "creator": "示例账号 D",
+      "signal": "公开播放量待接入",
+      "why": "反常识 + 单点结论",
+      "hook": "你一直相信的这件事，其实错了",
+      "url": "https://www.youtube.com/shorts/"
+    },
+    {
+      "platform": "TikTok",
+      "category": "宠物",
+      "title": "宠物第一次看到镜子",
+      "creator": "示例账号 E",
+      "signal": "公开趋势待核验",
+      "why": "自然反应 + 情绪价值",
+      "hook": "它用了3秒认出镜子里的自己",
+      "url": "https://www.tiktok.com/"
+    },
+    {
+      "platform": "Instagram Reels",
+      "category": "旅行",
+      "title": "一座城市的24小时",
+      "creator": "示例账号 F",
+      "signal": "公开互动待核验",
+      "why": "镜头密度高 + 地点向往",
+      "hook": "用20秒带你过完这里的一天",
+      "url": "https://www.instagram.com/reels/"
+    },
+    {
+      "platform": "YouTube Shorts",
+      "category": "改造",
+      "title": "废旧房间极限改造",
+      "creator": "示例账号 G",
+      "signal": "公开播放量待接入",
+      "why": "前后对比 + 过程压缩",
+      "hook": "这个房间原本没人敢住",
+      "url": "https://www.youtube.com/shorts/"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "7天只用AI做决定",
+      "creator": "示例账号 H",
+      "signal": "公开趋势待核验",
+      "why": "连续剧结构 + 悬念",
+      "hook": "第一天，AI就让我后悔了",
+      "url": "https://www.tiktok.com/"
+    },
+    {
+      "platform": "Instagram Reels",
+      "category": "运动",
+      "title": "普通人30天训练变化",
+      "creator": "示例账号 I",
+      "signal": "公开互动待核验",
+      "why": "时间压缩 + 成长叙事",
+      "hook": "第1天和第30天，差别有多大？",
+      "url": "https://www.instagram.com/reels/"
+    },
+    {
+      "platform": "YouTube Shorts",
+      "category": "手工",
+      "title": "一张纸做出机械结构",
+      "creator": "示例账号 J",
+      "signal": "公开播放量待接入",
+      "why": "过程满足 + 结尾揭晓",
+      "hook": "它看起来简单，最后却会动",
+      "url": "https://www.youtube.com/shorts/"
+    }
+  ],
+  "china_top10": [
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "上班族AI工作流",
+      "creator": "示例账号 1",
+      "signal": "公开榜单待接入",
+      "why": "痛点明确 + 可复制",
+      "hook": "这3步让我每天少加班2小时",
+      "url": "https://www.douyin.com/"
+    },
+    {
+      "platform": "快手",
+      "category": "真实生活",
+      "title": "普通人的一天",
+      "creator": "示例账号 2",
+      "signal": "公开榜单待接入",
+      "why": "真实感 + 人物关系",
+      "hook": "凌晨4点，他已经开始工作",
+      "url": "https://www.kuaishou.com/"
+    },
+    {
+      "platform": "视频号",
+      "category": "家庭教育",
+      "title": "家长最容易忽略的一句话",
+      "creator": "示例账号 3",
+      "signal": "公开数据待核验",
+      "why": "强共鸣 + 转发属性",
+      "hook": "孩子最需要听到的，不是加油",
+      "url": "https://channels.weixin.qq.com/"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "一分钟解释复杂概念",
+      "creator": "示例账号 4",
+      "signal": "公开播放待接入",
+      "why": "高密度 + 图形化",
+      "hook": "不用公式，也能看懂这件事",
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "platform": "抖音",
+      "category": "情绪共鸣",
+      "title": "成年人沉默的瞬间",
+      "creator": "示例账号 5",
+      "signal": "公开榜单待接入",
+      "why": "代入感 + 留白",
+      "hook": "真正的崩溃，往往没有声音",
+      "url": "https://www.douyin.com/"
+    },
+    {
+      "platform": "快手",
+      "category": "乡村美食",
+      "title": "一锅饭的完整过程",
+      "creator": "示例账号 6",
+      "signal": "公开榜单待接入",
+      "why": "烟火气 + 过程满足",
+      "hook": "这顿饭，从天还没亮就开始了",
+      "url": "https://www.kuaishou.com/"
+    },
+    {
+      "platform": "视频号",
+      "category": "健康生活",
+      "title": "一个常见习惯的误区",
+      "creator": "示例账号 7",
+      "signal": "公开数据待核验",
+      "why": "实用性 + 熟人传播",
+      "hook": "很多人每天都做，却一直做反了",
+      "url": "https://channels.weixin.qq.com/"
+    },
+    {
+      "platform": "B站",
+      "category": "数码",
+      "title": "新旧设备真实对比",
+      "creator": "示例账号 8",
+      "signal": "公开播放待接入",
+      "why": "参数落地 + 场景对比",
+      "hook": "别看发布会，真实差距在这里",
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "platform": "抖音",
+      "category": "城市旅行",
+      "title": "伊斯坦布尔一天路线",
+      "creator": "示例账号 9",
+      "signal": "公开榜单待接入",
+      "why": "路线清晰 + 收藏价值",
+      "hook": "第一次来伊斯坦布尔，照着走就够了",
+      "url": "https://www.douyin.com/"
+    },
+    {
+      "platform": "快手",
+      "category": "技能展示",
+      "title": "老师傅30秒完成绝活",
+      "creator": "示例账号 10",
+      "signal": "公开榜单待接入",
+      "why": "熟练度震撼 + 无废话",
+      "hook": "这个动作，他做了20年",
+      "url": "https://www.kuaishou.com/"
+    }
+  ],
+  "ideas": [
+    {
+      "title": "我用4台设备搭建24小时AI工作站",
+      "hook": "一台Mac、一台Windows、一台iPad和一部手机，怎样让它们不再各自闲置？",
+      "script": "镜头1：展示四台设备。旁白：很多人买了很多设备，但真正的问题不是设备不够，而是它们没有协同。镜头2：Mac负责主任务和内容生产，Windows负责自动化与兼容软件，iPad负责监控和远程控制，手机负责采集、通知与随时审批。镜头3：展示任务流。结尾：四台设备不是四个工具，而是一套24小时运行的AI系统。"
+    },
+    {
+      "title": "中国短视频为什么更快，国外短视频为什么更直接",
+      "hook": "同一个选题，中外平台的爆款结构完全不同。",
+      "script": "开头先同时展示两个版本。中国版用情绪、铺垫和转折，国外版用结果先行和强视觉。中段拆解前3秒、字幕密度、音乐和结尾互动。结尾给出万能改编公式：国外内容进入中国，加人物关系；中国内容走向海外，先删掉铺垫，保留结果和视觉冲击。"
+    },
+    {
+      "title": "30秒判断一个短视频能不能爆",
+      "hook": "别先看点赞，先看这三个结构信号。",
+      "script": "第一，看前3秒是否提出明确冲突；第二，看每5秒是否出现新信息或画面变化；第三，看结尾是否让观众评论、收藏或转发。把任意视频按这三项各打10分，低于20分先别拍，高于25分再投入制作。"
+    }
+  ],
+  "period_reports": {
+    "本周": "AI效率、真实生活、文化差异仍是最容易跨平台复用的三类方向。",
+    "本月": "内容从单纯展示工具，逐渐转向“工具如何改变真实生活和工作结果”。",
+    "本季度": "连续剧式挑战、前后对比和高密度知识短片持续占据高传播位置。",
+    "本年度": "生成式AI降低制作门槛，但真实人物、可信体验和鲜明观点成为新的稀缺要素。"
+  },
+  "archive": [
+    {
+      "label": "2026-07-21 日报",
+      "url": "archive/2026/07/2026-07-21.html"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="国内外短视频趋势日报、周报、月报、季报与年度趋势分析" />
+  <title>全球短视频趋势中心</title>
+  <link rel="stylesheet" href="../../../assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">GLOBAL SHORT VIDEO INTELLIGENCE</div>
+        <h1>全球短视频趋势中心</h1>
+        <p>国内外 Top 10 · 爆款结构 · 跨平台改编 · 日/周/月/季/年趋势</p>
+      </div>
+      <div class="status-card">
+        <span class="dot"></span>
+        <div>
+          <strong>固定链接持续更新</strong>
+          <div id="updatedAt">正在读取最新数据…</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="#today">今日日报</a>
+    <a href="#global">国外 Top10</a>
+    <a href="#china">国内 Top10</a>
+    <a href="#ideas">立即拍摄</a>
+    <a href="#reports">周期报告</a>
+    <a href="#archive">历史归档</a>
+  </nav>
+
+  <main class="container">
+    <section id="today" class="summary-grid">
+      <article class="card kpi">
+        <span>今日强势赛道</span>
+        <strong id="topCategory">—</strong>
+        <small id="topCategoryNote">—</small>
+      </article>
+      <article class="card kpi">
+        <span>跨平台机会</span>
+        <strong id="crossPlatform">—</strong>
+        <small>适合中外互相改编</small>
+      </article>
+      <article class="card kpi">
+        <span>重点平台</span>
+        <strong id="focusPlatform">—</strong>
+        <small>基于公开可核验信号</small>
+      </article>
+      <article class="card kpi">
+        <span>数据状态</span>
+        <strong id="dataStatus">—</strong>
+        <small>不编造榜单与热度</small>
+      </article>
+    </section>
+
+    <section class="card executive">
+      <div class="section-head">
+        <div>
+          <span class="section-index">01</span>
+          <h2>今日趋势摘要</h2>
+        </div>
+      </div>
+      <div id="dailySummary" class="prose"></div>
+    </section>
+
+    <section id="global" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-index">02</span>
+          <h2>国外平台 Top 10</h2>
+        </div>
+        <input id="globalSearch" class="search" placeholder="搜索平台、赛道或创作者…" />
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>平台</th><th>赛道</th><th>内容</th><th>创作者</th><th>热度信号</th><th>爆款原因</th><th>链接</th>
+            </tr>
+          </thead>
+          <tbody id="globalTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="china" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-index">03</span>
+          <h2>中国平台 Top 10</h2>
+        </div>
+        <input id="chinaSearch" class="search" placeholder="搜索平台、赛道或账号…" />
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>平台</th><th>赛道</th><th>内容</th><th>账号</th><th>热度信号</th><th>爆款原因</th><th>链接</th>
+            </tr>
+          </thead>
+          <tbody id="chinaTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="ideas" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-index">04</span>
+          <h2>最值得立即制作的 3 个选题</h2>
+        </div>
+      </div>
+      <div id="ideasGrid" class="ideas-grid"></div>
+    </section>
+
+    <section id="reports" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-index">05</span>
+          <h2>周期趋势报告</h2>
+        </div>
+      </div>
+      <div id="periodReports" class="period-grid"></div>
+    </section>
+
+    <section id="archive" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-index">06</span>
+          <h2>历史归档</h2>
+        </div>
+      </div>
+      <div id="archiveLinks" class="archive-links"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>数据原则：优先使用公开、近期、可核验来源；无法完整验证时明确标注，不制造虚假排名。</p>
+  </footer>
+
+  <script src="../../../assets/app.js"></script>
+</body>
+</html>
