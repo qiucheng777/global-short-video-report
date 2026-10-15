@@ -1,0 +1,320 @@
+{
+  "updated_at": "2026-10-15 20:40",
+  "kpis": {
+    "top_category": "生活反差",
+    "top_category_note": "按当日公开趋势信号出现频次",
+    "focus_platform": "TikTok",
+    "high_potential": "3 个",
+    "data_status": "公开RSS（未配置YouTube API）"
+  },
+  "summary": [
+    "V5 已启用自动去重、失败重试、缩略图、公开指标字段以及周期汇总。",
+    "配置 YOUTUBE_API_KEY 后，YouTube 条目将使用官方 Data API 获取公开视频标题、频道、发布时间、播放量、点赞量、评论量与缩略图。",
+    "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
+  ],
+  "global_top10": [
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Watch the Grand Theft Auto VI Launch Trailer, featuring the debut of “Flower in a Hurricane\" from original score composers score artists Jus",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84VzhYbTdfZ3BpbG95QnUtaHNielRURFJoOTZPY0E1TEllZzI4cWJBRVhfQ2YzMW5VNXFIb2tZSGI4c0FPVVl4Y1FZQkRMSG9DYzI1ejVUQ3lKaWVodkxZeWJDQjBTc0VoWHRHWGNOMlc?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 15 Oct 2026 16:01:39 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "TikTok Trends - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kM0x3RHkwNERGNWQ5dUFIaG1Wc2RvVGM4VUhwWWxraXdTTk9YNUx1bWxQWXRDNWhoWk1kU3BaUG05OE8yekZkbkhJNFh6dnN3UVpkSXIyLXU5anh2QXp5WGVDNVd4czFtUUN5NnNITV8?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 24 Jun 2022 05:31:48 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "TikTok Stories - TikTok Support",
+      "source": "TikTok Support",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FNFhjZkFsb0VsMW50dExES19FdW9IeUdlTzdYOXNTeS1PRHBzSmtBZkNYYk83cE5jMktLaG1rSE92ZXdscWM4ZDF3Z1lCeS01bUw3VFFFeXdKUUNHVlNQcTRaRnNVU0hib1VoTFVrRXpDM2xHajR4dTRnc3k2Zw?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 26 May 2022 22:00:48 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Adult content - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRUk4OHI1ZVllckpiOGdDdHdCMkpRaXY3dXJZalN2Z2ctWV83bTQ5c0czYi1hcXN3QW5YTmtGbzUzbnlxUlA1SDBheUp6ZFd3aUQwYlpUZ2JpTEZzYW9mQk9mQ1Bnd09qRG14WGFMMW4taXBobU1LY2EzRU1xZEVGSGpaaw?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 13 Aug 2026 15:02:56 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Time to learn from this true life story…👌 #realpoundstv #trending #foryou #yahoo #truelifestory - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01ZFllOEtJVkw3VnBYcmNfYlhuVWlIZnd6WFFPempXZ09QbmVFSlBtc2p0ZkFQTHFYZV9JM3VRQUF3UUhiSVkyQXlVWlBuVThUdGxTdmlQdkp3UlppOVdvSi1YWXJTRDNSbmZ2anhIOA?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 09 Oct 2026 01:06:28 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "( PART : 1 ) LIFE STORY 🌎😩❤️ #secretluci1 #viral #content #fyp #trending - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HUFdsOGtmbjVpQTlacnFUTTVWTS0yRnJwMU04dUJ2ck5tb0dqX0xCbGxpdDdrRC16RXY2Wnh2ZTVKT3FpWmNLdWFRS2Q5T05VWWpETG85Yy0yY3JWRGZJQmh1RlFvbGxROHlfSEdR?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 20 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Song titled: real life story 🥺#fypシ゚viral🖤tiktok☆♡🦋myvideo #fypシ゚viral🖤tiktok☆♡🦋 #crying24ghcomedy2🤪 #crying24ghcomedy2🤪 #ghanatiktokers🇬🇭🇬🇭",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CMUJZUy0zdFNfbFM1R2o4UTg4eVJJME5xNGluRi1sZmdyc2swOHJ6YkRLdHlqYXdVZWRkUmVTRDBRc2N0QlRNZGhEeEstWlAxNUFHaXlzZ1Z6MXRaWFRGV1hfNEFWVGcwZ29VY3hn?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "True life story🙂 #fyp #viral #fypシ #backhandedcompliment #mrdonduke @CALMEDIVINE @C.C Esquire - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3cWxleWN3dDU2eWpoTHd3eC1OS0twQVVfaGxscVg4SEJIdW0xQ1hDU3NpOTJ2ckRUNHdTYkR4OUFpUGJlWUFORURiNTF0RWFsdFhteE9OTjRSaE5vU0tCVVowSWN0UUNqWmFZ?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 13 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "🤣🤣🤣🤣🤣🤣 - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42Y2ZuaXRuV1hUOFRYdzRjVS1xNGRPYmRsc0V2QW5BV1VvZ3dOM094MWRRc2gwbzBuMjM5WnRrbzZWZ1lFOHlNVHI0M0tIQkRqaHJKWXpJNDFLWnVOWWxZS3U5UGFjOXFVNGRv?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 12 Oct 2026 18:46:48 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "TikTok for Business | Marketing & Advertising on TikTok - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1sS0sydHRLaDh6OVpUWEN0bXp3WXZMRzB4REFyX3U1WEYtOUdsVmVzQTJaOXV1cmU3Ym1IQURMVDlpeTU0aVpBZHlB?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 16 Sep 2024 01:49:39 GMT"
+    }
+  ],
+  "china_top10": [
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "Douyin Learn more - 抖音 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RN2x5elB4ZHliZEVJcnFCSkhXMTdmUjNEbWk1bnpIWXZoR05xWm1wTkJlVlg4YjUzZHA3ZDdlcm9LUmJKMHc?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 24 May 2025 19:24:50 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "imagen2 AI使用教程 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LeUFxMlhIeUw3enBmVi1pd3U0OHNlM0xrTXhJSnM3VVNQM2JtNTY3RFJWOHkxejVXdHBJSHlZN0RnemNOOUlaT05hdG5FS2YwTmRUV3FxZmtsVlZ1dUE?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 05 Apr 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "- 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTTFOczFtOVNYb0pDaWk4NktOV3ZzMUdVWFFOYTdVeVF3TjNuX2tobE9yQTdWVnRPUDgwdVdIWDFoV3YzWUlLMUtKYlpzWUVLWkxhcGVyN0dmcFlzclJGM1Y1ekVwN24zVlVocHdfLVBBUlVwMnFSeDMyQlJrRTFCYVRIQWJvbFFyRzln?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 26 Jun 2024 07:32:34 GMT"
+    },
+    {
+      "platform": "快手",
+      "category": "真实生活",
+      "title": "KuaiShou English Website - 快手",
+      "source": "快手",
+      "signal": "近期公开网页/RSS提及",
+      "why": "人物关系 + 真实记录",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE90Z3UwV0N6QVYwNTRoRXZjVE12ZnBKWnNka1RZZzIwSU5YNVFYZUVDX1kzUkpidVhxYTBwRzRULUU?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 06 Nov 2020 06:56:38 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "【104集】YouTube儿童英语科学教学动画短片《Crash Course Kids》每天10分钟快速掌握科普知识！_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jZVRjXzJpRVpkVEJYOHRYQnlsZllqTlpUa1FxMGlNMDIxVVZyQXRPQmY0Q2l5b1BWSDZldElpbS1kTXl3Ulk0Uko5MmtZMFN3SnFIaDVSdw?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 10 Aug 2023 07:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "全球范围内超人气英语科普视频Brainpop Jr全330集视频+音频+PDF学习素材_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15OG9KcFdlRWJWMmtMRUpUY3hkM1BwWS05dGg0WGh5a004cVZSX1hSd1JoX09KMGtWV0NZVVlqVFlRWUZOd1h1Q0pCdGtRczIxQ1NnQ3pHaw?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 14 Nov 2024 08:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "超萌! 法国自然科普纪录片《微观小世界Minuscule》油管同步更200集，附交互+幕后制作！_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WUTlOOVF6TDdTNnFSSUFFN1JNZlIzM0liQmdXM3k2cS1OODJRelNHcE1aREFBd0w3TXFDNmp6dkdGa0h3cUZvTXNMWUNvN0ZrdTNzUFR4bw?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 06 Feb 2023 08:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "【设备科普】融合爵士吉他手Shawn lane设备音色全解析（多p）_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1waHpsOHNWZ3owcV9Tb2VWNWIzd28zOFNPajl4aEZRR3poNFczbUhVQUpQWXBZNmZoc0l6SXI0am1LWUl0dUxBSG41RW1mNGl0ZW00amdkcw?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 03 Apr 2025 07:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "【科普】ANSYS Fluent2019帮助文档官方视频教程（上）_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mR2Q5LWphaXlPV2tSOFFRWFhSb0gxcGNZNFJqQzFkUXVuU1k4MWpvSWJNNXZMNW1xaHRDeEVhSnF2V1JTdHUyekRscklUcDVoMUFPblZ6QQ?oc=5",
+      "thumbnail": "",
+      "published": "Thu, 02 Jan 2020 08:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "【347集】The Dr. Binocs Show 百诺博士之科普动画_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rNUdLSTdBdVVlb3NKMF9qeVVKei1JSXJiMHdHRUpTemZQWmpHdUxQZWZIVzNtSC1RdVNlMHUwM2o1SUNzejJaRlMwUXhadkFFbm1Zb01ZWQ?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 15 Mar 2025 07:00:00 GMT"
+    }
+  ],
+  "ideas": [
+    {
+      "title": "同一选题的中外双版本实验",
+      "hook": "同一个故事，为什么中国版和海外版要用两种开头？",
+      "script": "海外版先展示结果和视觉冲击；中国版加入人物关系、情绪铺垫和结尾反转。",
+      "caption": "同一个选题，为什么中外平台要拍成两个版本？",
+      "tags": "#短视频运营 #内容出海 #爆款拆解"
+    },
+    {
+      "title": "30秒判断短视频是否值得拍",
+      "hook": "别先看点赞，先看三个结构信号。",
+      "script": "第一看前三秒冲突；第二看每五秒新信息；第三看结尾是否自然引导评论、收藏或转发。",
+      "caption": "一个视频值不值得拍，30秒判断",
+      "tags": "#短视频脚本 #内容创作 #运营干货"
+    },
+    {
+      "title": "四台设备组成24小时AI工作站",
+      "hook": "Mac、Windows、iPad和手机，怎样不再各自闲置？",
+      "script": "Mac负责创作，Windows负责自动化，iPad负责监控，手机负责采集、通知与审批。",
+      "caption": "四台设备，组成一套24小时AI系统",
+      "tags": "#AI工作流 #效率工具 #数字生活"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "YouTube Shorts 重点账号",
+      "status": "等待配置频道ID后自动监控更新频率、播放量和主题变化。",
+      "action": "在 config/competitors.json 填入频道ID。"
+    },
+    {
+      "name": "TikTok / Instagram 重点账号",
+      "status": "公开数据源不足时仅记录公开网页信号。",
+      "action": "接入官方API或合法第三方数据服务。"
+    },
+    {
+      "name": "抖音 / 快手 / B站",
+      "status": "B站可逐步接入公开视频数据；抖音、快手需合规数据源。",
+      "action": "先配置公开账号清单与人工核验规则。"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "制作 1 条中外双版本短视频",
+      "detail": "同一素材分别采用“结果先行”和“情绪铺垫”两种结构，测试完播率差异。"
+    },
+    {
+      "title": "复盘今日 Top 3 赛道",
+      "detail": "记录前三秒钩子、镜头切换频率、结尾互动方式并形成模板。"
+    },
+    {
+      "title": "更新竞品账号清单",
+      "detail": "新增至少 3 个值得长期监控的国内外账号。"
+    }
+  ],
+  "archive": [],
+  "period_reports": {
+    "本周": "近7日高频方向：生活反差、AI效率、知识科普。重点观察持续出现且公开指标可验证的内容。",
+    "本月": "近30日主要趋势集中在：生活反差、AI效率、知识科普。优先制作可跨平台改编的选题。",
+    "本季度": "季度方向以 生活反差、AI效率、知识科普 为主。连续剧、前后对比和高信息密度内容更具复用价值。",
+    "本年度": "年度趋势显示，生活反差、AI效率、知识科普 持续获得关注；真实体验与可信结果比单纯工具展示更重要。"
+  }
+}
