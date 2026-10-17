@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 20:13",
+  "updated_at": "2026-10-17 19:11",
   "kpis": {
     "top_category": "生活反差",
     "top_category_note": "按当日公开趋势信号出现频次",
@@ -13,30 +13,6 @@
     "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
   ],
   "global_top10": [
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "The Dodgers quest for a three-peat is over. #dodgers #mlb #baseball #losangeles #espnsocial - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RYWpiRWRoTkNHY19JMy1JMS1XRjVfNmxfUjgySHYwOWZVa0d5eUpEX2kyUjQzMmtvRVpYc055V2VFNWp0Y21WSFA5MVZFSEdubS1EaURqcC05TVdZU0s5T1RRWUg?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 16 Oct 2026 03:25:50 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "The best clown #fypシ #viral #funny #killerclowns #halloween - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xNkxnYzJkZHpGTVM0TVNRQjBjZlpfelRPY0VWSnR1WGJ0QlNScktNbGdINGxGZEQtdTBoUkljZTNPWER0UDhZc2E5TGhrMWZzTXV4b1BldDFESU9NWG40VVVZMklFMlBBZTE5YVc0dnBQa1Qya0FFOU5HTEI?oc=5",
-      "thumbnail": "",
-      "published": "Thu, 15 Oct 2026 17:12:40 GMT"
-    },
     {
       "platform": "TikTok",
       "category": "生活反差",
@@ -60,18 +36,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FNFhjZkFsb0VsMW50dExES19FdW9IeUdlTzdYOXNTeS1PRHBzSmtBZkNYYk83cE5jMktLaG1rSE92ZXdscWM4ZDF3Z1lCeS01bUw3VFFFeXdKUUNHVlNQcTRaRnNVU0hib1VoTFVrRXpDM2xHajR4dTRnc3k2Zw?oc=5",
       "thumbnail": "",
       "published": "Thu, 26 May 2022 22:00:48 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "Adult content - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRUk4OHI1ZVllckpiOGdDdHdCMkpRaXY3dXJZalN2Z2ctWV83bTQ5c0czYi1hcXN3QW5YTmtGbzUzbnlxUlA1SDBheUp6ZFd3aUQwYlpUZ2JpTEZzYW9mQk9mQ1Bnd09qRG14WGFMMW4taXBobU1LY2EzRU1xZEVGSGpaaw?oc=5",
-      "thumbnail": "",
-      "published": "Thu, 13 Aug 2026 15:02:56 GMT"
     },
     {
       "platform": "TikTok",
@@ -111,27 +75,63 @@
     },
     {
       "platform": "TikTok",
-      "category": "挑战",
-      "title": "Small secret 😭🤣🤣 #humble__mercy_ #trending #fyp #challenge #viral @Jo blaq @Maky The Creator - TikTok",
+      "category": "生活反差",
+      "title": "Mood #foryou #viral #fyp @Mr.tymless - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
+      "why": "真实感 + 文化差异",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1b0lCdUVoVzNacEI4dXE4STd1aTVsVl8yNUlWMi1wa056NjNMdU9WTHozelI4eHU0a2EwQTF1UGFZcGJvZEtCejVlckdhZUVCRy1tTTROZm0wV01KNmpDNDZqT0VEQlF4WUlZVVVpUW9jZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWWXczY1FmTUpmU0hYdnRGZF9MSk9SMkppVVhWTEZmTW12c29lSzF0eVA5RzA4V3hjYjFrV3ZEc1BvTUtMblNFMkZJOVBoRWxjN2ViSnFvX0c4Sm9MaDJZZE01VlMxNTNzOTRXT1FPOA?oc=5",
       "thumbnail": "",
-      "published": "Thu, 15 Oct 2026 14:24:34 GMT"
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "ADVANCED ChatGPT Dream Life Prompt Script - this version will ask you a series of clarifying questions to dive deeper into your dream life a",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44UnRVS1pUTEJmM3g2RnZvQW5abF91TGpJZWpIZTFjUGtObzgwZkdVY0R3cmxZeHB4WXA3dHkyNFdydFFjdldfTUN1RDZxQkVkb3JWVTNmMUh0djhoajdOR0lkMmJlRUdORjdwNk9oWF8zT3c?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 11 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Real life story #fypシ゚viral #lenyalothemarriage #mojolothedating #souldj #drama - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0alEweVNyZ3ZpQUI5dGxIYUxKMlpCR2xYQlQ5ZTNSV1EwRlROSGIzWWpWdVFfXzh6dGpkbzVtWXRNb1lSNHFuZWpwbDh1MUp4Z2x0b3NqQ1R2c0tIVk5qSE9HQnNLUlVyLUE?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 14 Oct 2026 17:20:03 GMT"
     },
     {
       "platform": "TikTok",
       "category": "挑战",
-      "title": "#bpdcreww #dancesistass #fyp #foryou #fypシ゚viral - TikTok",
+      "title": "New Anthem, New Dance Challenge ! Dc: @demzy_baye . Such a blessing meeting you Sir 😇🙏🏾. #HALLE - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
       "why": "连续剧结构 + 悬念",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sQlVVVFM5Y3ZYaTZWTnNHNWpSM0Y1czZydUJianBQTURZRUFwTjFVV3V1enpfUGpwRzBqQ1Y4RzdNX2p0SnhWVlZTVmtRMEU3Y3B0dWlsbUdtRl8zcVdldkJaZlBzUW8wcmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1Q1BrTnZ6MEJVakIwNFdXMTU2MThCZndvakhMN1RWZWRyZlp5d2dhOHNxZ1M3NWYxYjZLQ0lPS3p0VDZsRUgta3JHRnFaclg4ZFM4aUJ0VWtrVnZtOXZyNXk2X0hBUWtTODNTSw?oc=5",
       "thumbnail": "",
-      "published": "Tue, 13 Oct 2026 11:53:51 GMT"
+      "published": "Wed, 14 Oct 2026 19:11:36 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "We thought they were about to kick us out 😂 #shelbanddyl #datenight #trend - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yRWNmdTlpWkV1c3NuMmFYc3pRTmkzVG9GbTZSdGhvNkxHODZUaEgwcGt5d3dPSmU2ZGV4dXBpbDBNWkYzQ0h5WU9XRzZ6YXFSdEY2WHZPdXk4aVhHX2JVcmZmVHZzZFpuN3VuMWhB?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 12 Oct 2026 23:03:36 GMT"
     }
   ],
   "china_top10": [
@@ -186,38 +186,14 @@
     {
       "platform": "B站",
       "category": "知识科普",
-      "title": "【104集】YouTube儿童英语科学教学动画短片《Crash Course Kids》每天10分钟快速掌握科普知识！_哔哩哔哩 - Bilibili",
+      "title": "【科普】ANSYS Fluent2019帮助文档官方视频教程（上）_哔哩哔哩 - Bilibili",
       "source": "Bilibili",
       "signal": "近期公开网页/RSS提及",
       "why": "反常识 + 高信息密度",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jZVRjXzJpRVpkVEJYOHRYQnlsZllqTlpUa1FxMGlNMDIxVVZyQXRPQmY0Q2l5b1BWSDZldElpbS1kTXl3Ulk0Uko5MmtZMFN3SnFIaDVSdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mR2Q5LWphaXlPV2tSOFFRWFhSb0gxcGNZNFJqQzFkUXVuU1k4MWpvSWJNNXZMNW1xaHRDeEVhSnF2V1JTdHUyekRscklUcDVoMUFPblZ6QQ?oc=5",
       "thumbnail": "",
-      "published": "Thu, 10 Aug 2023 07:00:00 GMT"
-    },
-    {
-      "platform": "B站",
-      "category": "知识科普",
-      "title": "全球范围内超人气英语科普视频Brainpop Jr全330集视频+音频+PDF学习素材_哔哩哔哩 - Bilibili",
-      "source": "Bilibili",
-      "signal": "近期公开网页/RSS提及",
-      "why": "反常识 + 高信息密度",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15OG9KcFdlRWJWMmtMRUpUY3hkM1BwWS05dGg0WGh5a004cVZSX1hSd1JoX09KMGtWV0NZVVlqVFlRWUZOd1h1Q0pCdGtRczIxQ1NnQ3pHaw?oc=5",
-      "thumbnail": "",
-      "published": "Thu, 14 Nov 2024 08:00:00 GMT"
-    },
-    {
-      "platform": "B站",
-      "category": "知识科普",
-      "title": "超萌! 法国自然科普纪录片《微观小世界Minuscule》油管同步更200集，附交互+幕后制作！_哔哩哔哩 - Bilibili",
-      "source": "Bilibili",
-      "signal": "近期公开网页/RSS提及",
-      "why": "反常识 + 高信息密度",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WUTlOOVF6TDdTNnFSSUFFN1JNZlIzM0liQmdXM3k2cS1OODJRelNHcE1aREFBd0w3TXFDNmp6dkdGa0h3cUZvTXNMWUNvN0ZrdTNzUFR4bw?oc=5",
-      "thumbnail": "",
-      "published": "Mon, 06 Feb 2023 08:00:00 GMT"
+      "published": "Thu, 02 Jan 2020 08:00:00 GMT"
     },
     {
       "platform": "B站",
@@ -234,26 +210,50 @@
     {
       "platform": "B站",
       "category": "知识科普",
-      "title": "【科普】ANSYS Fluent2019帮助文档官方视频教程（上）_哔哩哔哩 - Bilibili",
+      "title": "儿童物理启蒙课《 Physics for Babies宝宝的物理学》，STEM科普+亲子互动方便理解，中英双语+字幕_哔哩哔哩 - Bilibili",
       "source": "Bilibili",
       "signal": "近期公开网页/RSS提及",
       "why": "反常识 + 高信息密度",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mR2Q5LWphaXlPV2tSOFFRWFhSb0gxcGNZNFJqQzFkUXVuU1k4MWpvSWJNNXZMNW1xaHRDeEVhSnF2V1JTdHUyekRscklUcDVoMUFPblZ6QQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZQlZYN2dZOVpTemEyNENmeldId0xCSGtHdEZUa1VKUDREZFZBelRwaFJ3TVFWNERBdGE3UzZWSmw2Ym90R0NVZWRFamtDUENiTlU2bmFkMA?oc=5",
       "thumbnail": "",
-      "published": "Thu, 02 Jan 2020 08:00:00 GMT"
+      "published": "Wed, 27 Mar 2024 07:00:00 GMT"
     },
     {
       "platform": "B站",
       "category": "知识科普",
-      "title": "【347集】The Dr. Binocs Show 百诺博士之科普动画_哔哩哔哩 - Bilibili",
+      "title": "脑洞大开！5分钟1集，超有趣的BBC泛科学科普《What If 》，2季52集高清英文字幕+音频+台词本_哔哩哔哩 - Bilibili",
       "source": "Bilibili",
       "signal": "近期公开网页/RSS提及",
       "why": "反常识 + 高信息密度",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rNUdLSTdBdVVlb3NKMF9qeVVKei1JSXJiMHdHRUpTemZQWmpHdUxQZWZIVzNtSC1RdVNlMHUwM2o1SUNzejJaRlMwUXhadkFFbm1Zb01ZWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WdkxseXZFcTlGWExQR3dnY1U0WjRlV2tOU2o5QnZsVFZVNjVMd0hsRmIzd2hoMGtvY0dNck9veTI2S3h2djF0UEFCdGFyYXlaWTZyb0ZWcw?oc=5",
       "thumbnail": "",
-      "published": "Sat, 15 Mar 2025 07:00:00 GMT"
+      "published": "Mon, 12 Aug 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "美国儿童STEM科学实验+科普节目——SciShow Kids 全545集高清英文字幕，持更中_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MYk51RTMtSXplM2hCSWZoTm0tZ2ZyblRTT0dwcEVnNnlGR0pUVkE4ekhYQXR4R21oN1RMQXd6bWtvNThVQzU3bVdWaHY2SkV6Vmlzd2ExNA?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 08 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "B站",
+      "category": "知识科普",
+      "title": "爆火欧美的科普类英文启蒙动画peekboo百诺博士Binoc英文字幕十万个问什么（300集持续更新中）_哔哩哔哩 - Bilibili",
+      "source": "Bilibili",
+      "signal": "近期公开网页/RSS提及",
+      "why": "反常识 + 高信息密度",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FY3V1bXRpenJNalBzam84cUlHeDBMWjI0UFdDZE5MWWUtaG1yRUhsSzYxbU0zQlJMcl9KaHJLZWNuRGpGdE1TODVRbHp4eWlnMVlPekM0cw?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 22 May 2022 07:00:00 GMT"
     }
   ],
   "ideas": [
@@ -311,6 +311,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "2026-10-17 日报",
+      "url": "archive/2026/10/2026-10-17.json"
+    },
     {
       "label": "2026-10-16 日报",
       "url": "archive/2026/10/2026-10-16.json"
