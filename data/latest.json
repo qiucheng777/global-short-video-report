@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-17 01:46",
+  "updated_at": "2026-11-18 00:34",
   "kpis": {
-    "top_category": "挑战",
+    "top_category": "生活反差",
     "top_category_note": "按当日公开趋势信号出现频次",
-    "focus_platform": "抖音",
+    "focus_platform": "TikTok",
     "high_potential": "3 个",
     "data_status": "公开RSS（未配置YouTube API）"
   },
@@ -15,123 +15,123 @@
   "global_top10": [
     {
       "platform": "TikTok",
-      "category": "挑战",
-      "title": "Haven’t watched yet, but congrats Sierra 🤨 #fyp #challenge - TikTok",
+      "category": "生活反差",
+      "title": "True life story #thetrenchboyy #fyp #fypシ #viral #trending - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
+      "why": "真实感 + 文化差异",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xRk1MdEduaXd5R0VHZzRHT2RCZmVMZ0ZKYU9BRnhacHE2QzJnMUFFdG85OVU5V2NWdXlTekFFa3djWlQ2blE1d2R2LVRqYnJzdG9TY0JTam5HMDlfNzBnNFVXQmNuX052RnhuRWlwbnM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WVnlOZ2RUNmg2UVhmeWx3amdCTl8wN2I3WUJxNjd0b21MbDQwYm1Sck1SUkpJemhnZlN0RE10SHJfRjNsc3c2Zm96VzBVWmJURnNrUkdUdzVzcFpDOVJxMkpfNXhaaEttY21GRDdBY0s?oc=5",
       "thumbnail": "",
-      "published": "Mon, 16 Nov 2026 20:29:09 GMT"
+      "published": "Thu, 09 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Based on true life story 😩💔💙 #afroblueries #viral #foryou - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55cUd3d0IydnNEMkgwMGJuM1A4bVF2MmRmT2xFclBUa0RsUnhxRVFmUlZYZktOV3dfNVdqSUJYbHVUNi1KMW96aGZzWVpHZ3FEcUtZczVCT29Nd0hFMkZRUmpGUEU4U3ZnTlgtb3pTVQ?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 12 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Real life story 😭 #viral #mrdonduke #fyp #fypp #laugh - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yUEVWd3E2ZFVobmhJbWdIODh1QUdNcjNkc2M0c0psQmhzdHJGNTFzcGV3TWQ1Z2d3NWlEQ1N6bGxQMXF0SHFKQ0E5d0dCZXNPZlVkaER0SkN6aVdKUlZTUGZ5ajdzVXJsUUFR?oc=5",
+      "thumbnail": "",
+      "published": "Tue, 17 Nov 2026 18:09:27 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Song titled: real life story 🥺#fypシ゚viral🖤tiktok☆♡🦋myvideo #fypシ゚viral🖤tiktok☆♡🦋 #crying24ghcomedy2🤪 #crying24ghcomedy2🤪 #ghanatiktokers🇬🇭🇬🇭",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CMUJZUy0zdFNfbFM1R2o4UTg4eVJJME5xNGluRi1sZmdyc2swOHJ6YkRLdHlqYXdVZWRkUmVTRDBRc2N0QlRNZGhEeEstWlAxNUFHaXlzZ1Z6MXRaWFRGV1hfNEFWVGcwZ29VY3hn?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "True story #viral #life #tattoo #funny - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NNlE5dVpPLWpGalNEQTdXZ1ZpU3NFRUEwbEVoU3o0TWZYc2ZsTlBrdmVFVjNPZG1rZE4zdlhseDRCRTEtNkRrZEhkWXppNWNBbmRrZEp1dmdoanFGQ2VrT1pWZXV1cmJ2VTZxMjR6TjBzOWN1VjhhZl9n?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Note:this is a true life story😭😂😫#fyp #viral #porkiyor - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3WThvSVQweFhPSWtCMlhoemtyb1l5ZkdSa09LQllIaEVmQWRta2RiSGp6S09EWDZ4aTFkc1drTW9NQ211ajVMcUlpd3JKRU9ybkMxTGt2WmtOUmtZTnJqZS1CRk1yMkVSTXc?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 22 Feb 2023 08:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "last year was so peak #viral #whatiworethisweek #changemylife #fashion #fyp - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JTzl0NjluZDF5T0UzNWVOWGY1Q1Y0Q2RJdFpEa2JGR2ZDd1BBUTN5RkZ4ZEFRZ3JrX3VySlBIVHpsZjBHUFF2Q1F1QkVtMTZ2azBBR3gwS3ZZbWVWcmxNZXd0TC13QXN6WmNNaTRmNA?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 13 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "ADVANCED ChatGPT Dream Life Prompt Script - this version will ask you a series of clarifying questions to dive deeper into your dream life a",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44UnRVS1pUTEJmM3g2RnZvQW5abF91TGpJZWpIZTFjUGtObzgwZkdVY0R3cmxZeHB4WXA3dHkyNFdydFFjdldfTUN1RDZxQkVkb3JWVTNmMUh0djhoajdOR0lkMmJlRUdORjdwNk9oWF8zT3c?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 11 Oct 2024 07:00:00 GMT"
     },
     {
       "platform": "TikTok",
       "category": "挑战",
-      "title": "@vika @Alisia #fyy #viral #trend #dance - TikTok",
+      "title": "🏆🏆🏆🏆🏆🏆 #grammys - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
       "why": "连续剧结构 + 悬念",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XLWRQQkJuZFdPcDFycHBuNzlWMWlkUW4tdm9QaTVjTm9laXJ2S3JvX3k0cWhmVEdGU0htVkVNRXNnNjdBQmREa19sdWVDWVJ1MWFWbmZmN0pKT2NCSWt5RGV3aDg1NFk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yTmNSZmV2eTRudURKQVZWTGVQdkJlUmx1MG1vN1h0OVlHZFVMVmt1NHJ3N0pPTTJ5UzMxdlY2dWE2MFVBS1hqVXM3UklwaTBibzF1d1NzTEVfZmhTNzg3UEpVRHR6UEVjYmsza2dzWEpxZTBTbE53?oc=5",
       "thumbnail": "",
-      "published": "Fri, 13 Nov 2026 14:04:11 GMT"
+      "published": "Mon, 16 Nov 2026 15:14:15 GMT"
     },
     {
       "platform": "TikTok",
       "category": "挑战",
-      "title": "Where did they go 😂#waterbottleflip #funny #challenge #viral #explore - TikTok",
+      "title": "Did you get all of them? 🔥 #NBA #trivia #fyp #viral #basketball - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
       "why": "连续剧结构 + 悬念",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DNWxEUEdHaDZjSFZOZ0NfLTRXQU9qRW9hblVHSjNZaVF0M21fOXdkbHRHazhIaWFkams4NmhGVktSc1FtLUV4V1RZSTZjaXE1WWZpY19Id3NLUzNveUhTRHdfaGp3dF9hLTJwbQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15eWtCSUNFNEszelR1MHNQZ2hJU01wMklickNQVnN3eUdkdWw5R2Z5ZWtDQ3ZCWFRuRzllbjVVT0VjOFN1VXl2aEdvdEgyNEkzWmczZl80Nk4yV1lXR1lZNVRocDVpNTh5SFFfYg?oc=5",
       "thumbnail": "",
-      "published": "Sun, 15 Nov 2026 18:02:45 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "挑战",
-      "title": "So close 😂 @College GameDay #challenge #funny - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51eEJuWjNSV1FkTnZlRnUxS0hRX1o3cUdZeEp1endtYlo4dk1fQ2txVzFVN0xkX3NtQXZHWm9ZMW11M1lvWUctVjE5bTE1czZSc0k1RU96bV9zUFM0Szk5bmFGUUc?oc=5",
-      "thumbnail": "",
-      "published": "Sat, 14 Nov 2026 15:29:16 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "挑战",
-      "title": "I’m a LITTLE bit surprised 😳 #fyp #trend - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrNW5vdGpuaE5WYmliOVhqSm8zR3Fta09PZDJyOGlFamVpaWVrZWlwUE1QbzJJOFZXNWtUSWtuM201cjZQMzNVM2RJQm5HTHZaVDd2OWQ1TU41UHo4YlBnem9MYVhlRzBGc2pMRmVXclE?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 13 Nov 2026 20:58:31 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "挑战",
-      "title": "My brain hurts 🥲 #the10game - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYVXNiWWtSZ3hZbWUzNEdJUzBqaWFuM3JkeGdySXNFVzFPMzM5TTJncDBUTTl0VVVuY2VqNy16UmYzY2pQZ2xBbkhucWxkZ2dTT2pzc2pYSXVaY0plSTJaV1hnd21yRG5LS0lRR0k3NjJRSHlhX2hN?oc=5",
-      "thumbnail": "",
-      "published": "Sat, 21 Feb 2026 08:00:00 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "挑战",
-      "title": "We’re always up for a challenge 😂 - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EdUlhOUdnQnZ6d25wbXY4by1IcFlwemZ0YkVPU3FWVWs1LVlTV0xTRGJQSGRFU0tRTTM5RlVINWVuRWVEV1lCaXlpVjk0YjlTU3Y5SzQ3LV93dTEwdTZXaHRQUWZGSEROSC1LUUFYME9QUjFz?oc=5",
-      "thumbnail": "",
-      "published": "Wed, 10 Sep 2025 07:00:00 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "挑战",
-      "title": "Hit or Miss Challenge 😆 #hitormiss #hitormisschallenge #hit #miss #fyp #trend #viral #challenge #tryit - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00VXJibW5YMXJDU0w5S2FLVENiSW96TmwyMDJzRFdQcVMtbHNlZVVmTE00QWxueE8zUlIwNXNQRHJ2SDJDSTJLbHZ0eWxTSUUyZmZ1T2Y1Tl8zUjFfeldpczhVcHM4RWJnRGYzalhBNWM?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 20 May 2022 07:00:00 GMT"
-    },
-    {
-      "platform": "Instagram Reels",
-      "category": "美食",
-      "title": "Hold up — Disney has a SECRET MENU?! 😳🍔🧚#Disney #DisneyFood #Disneyland #DisneyAdult #DisneyTips - Instagram",
-      "source": "Instagram",
-      "signal": "近期公开网页/RSS提及",
-      "why": "视觉满足 + 无语言门槛",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50UHpiUVZaLWNVaEltLTVwMXY0RXFfZTBJWXBPYWRJMHF6T0dYMzl5a1lILTRDZlQtajlpRTJDbkVmTzlRSnE2bDVoamJSRGZhOGZ1bGJn?oc=5",
-      "thumbnail": "",
-      "published": "Mon, 16 Nov 2026 19:00:26 GMT"
-    },
-    {
-      "platform": "Instagram Reels",
-      "category": "美食",
-      "title": "Happy National Fast Food Day!🍔 TEENS: Show up to the Niles Teen Center today for free burgers, fries, and chicken nuggets, courtesy of our f",
-      "source": "Instagram",
-      "signal": "近期公开网页/RSS提及",
-      "why": "视觉满足 + 无语言门槛",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RRWxIUC1Ia2JFOGM4YmlpY1RYTDBEaXpKcjhFVUI0Znl0T0lCVUx5NU0zV0NPd2h2WUhPUjNtYllRb2phTjJCZi1iOHNOWVVKWGV3bk53?oc=5",
-      "thumbnail": "",
-      "published": "Mon, 16 Nov 2026 20:34:54 GMT"
+      "published": "Tue, 17 Nov 2026 00:19:33 GMT"
     }
   ],
   "china_top10": [
@@ -234,18 +234,6 @@
     {
       "platform": "抖音",
       "category": "情绪共鸣",
-      "title": "两段不同声音的音频怎么同化 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "强代入 + 留白",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qbVVMMnFFaDY5aHlNZ25kcVFQeEJpMFZuZXhnWHNOLUc3R1psLXZqMlRZNEJDVGdQUk1hLURIYUtvNkt4ckNaZFlBV2U5SUJUVWVUaEdqY1VPS0MyRHc?oc=5",
-      "thumbnail": "",
-      "published": "Wed, 14 Aug 2024 07:42:56 GMT"
-    },
-    {
-      "platform": "抖音",
-      "category": "情绪共鸣",
       "title": "15根意大利面搭高塔方法 - 抖音",
       "source": "抖音",
       "signal": "近期公开网页/RSS提及",
@@ -254,6 +242,18 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Xc1BUVUVaOHk4RXZZWWVHYTN0UnlVREFVOGpkMHdUQUhwNUx5VnZtNU1idHlvQ093bjNlWjZpbXd2V1FFazJHbU5Iejk5MkI5MHN6blNta0ltQXB5N0E?oc=5",
       "thumbnail": "",
       "published": "Mon, 22 Apr 2024 03:39:49 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "情绪共鸣",
+      "title": "两段不同声音的音频怎么同化 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "强代入 + 留白",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qbVVMMnFFaDY5aHlNZ25kcVFQeEJpMFZuZXhnWHNOLUc3R1psLXZqMlRZNEJDVGdQUk1hLURIYUtvNkt4ckNaZFlBV2U5SUJUVWVUaEdqY1VPS0MyRHc?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 14 Aug 2024 07:42:56 GMT"
     }
   ],
   "ideas": [
@@ -311,6 +311,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "2026-11-18 日报",
+      "url": "archive/2026/11/2026-11-18.json"
+    },
     {
       "label": "2026-11-17 日报",
       "url": "archive/2026/11/2026-11-17.json"
