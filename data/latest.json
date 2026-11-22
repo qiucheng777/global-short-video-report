@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 22:58",
+  "updated_at": "2026-11-22 23:12",
   "kpis": {
     "top_category": "生活反差",
     "top_category_note": "按当日公开趋势信号出现频次",
@@ -13,54 +13,6 @@
     "其他平台仍使用公开网页和 RSS 趋势信号；无法核验时明确标注，不冒充平台官方全量排行榜。"
   ],
   "global_top10": [
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "This Shih Tzu from last year’s National Dog Show really turned heads! Don't miss the 25th #NationalDogShow presented by Purina on Thanksgivi",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TVnF2VVRHNWE3b2puTnNjVHFORVFrdjF2QW9ucEk0VTQ5Zm5GTGM2azVaU05sX045alpVWmNYbnhTSjZvQThuY0NLekFuNUNRVGRiMElwWVZ2SUhmQ1NVZjlaQQ?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 20 Nov 2026 18:00:31 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "My life story 😂 #onthisday #fyp #viral #foryoupage #fyppppppppppppppppppppppp - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GdUNXaUFEUGoxZVBXUE0tUS1uTmhzWTkwdEZOZlNuU2VrSlhjaW9FOVpXSDBoNmE3TDI5UWJhYXhSNjdwbVJDZGVablVVS0kzMjJNZXZDaTI3amVFckNrb05oVTA1dHR2enlScXNR?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 20 Nov 2026 18:12:23 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "I need to follow my dad’s footsteps to live long and sharp at age 91!🤔🧠❤️ - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mMFBPRVVvNncyVTByNl9SbDJNVVdoeFlsYWhZaFltYlB5dWxjY0NvVFlPU0N5VEhfMHpKMGRPN3Uzd0pqRHUwMW1YeGhkdmVLdGk0VDlRQ21iWmFSdzUtYmFERElHZG1sQ08yOFoyY0tsM0E?oc=5",
-      "thumbnail": "",
-      "published": "Sat, 21 Nov 2026 11:35:50 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
-      "title": "My life story 🥹💙 #afroblueries #foryou #viral #life - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NU1RNbzN0TURDMVNJTXZRUkZWV01qLWNIT1VvUlFjZWpuSnRDWUJBVktBeDJNRXlnUHhQSUVSeTVkdWFDTkNqVi1xYmdVT3k4WV9LV19yUVRfN3NDOHBjNHhiVmQ1LTFLNWZmMUhWYw?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 20 Nov 2026 23:30:31 GMT"
-    },
     {
       "platform": "TikTok",
       "category": "生活反差",
@@ -88,18 +40,6 @@
     {
       "platform": "TikTok",
       "category": "生活反差",
-      "title": "I’m hooked #foryou #viral - TikTok",
-      "source": "TikTok",
-      "signal": "近期公开网页/RSS提及",
-      "why": "真实感 + 文化差异",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xZXk1Z3JGLW9lbnl3Sm9IeWJ3cjVFNER0UFBqMm9wczJYQ2hKRXlWeHBNYTdCdi1WNzg2SjlJLVUwZHg0cEk4akc4MWxKbTk4UVBJMzc1aFJMZ1dWb2pjRkl4amxtbml0eTJKRmhzOA?oc=5",
-      "thumbnail": "",
-      "published": "Fri, 20 Nov 2026 15:05:46 GMT"
-    },
-    {
-      "platform": "TikTok",
-      "category": "生活反差",
       "title": "Based on true life story 😩💔💙 #afroblueries #viral #foryou - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
@@ -111,27 +51,87 @@
     },
     {
       "platform": "TikTok",
-      "category": "挑战",
-      "title": "ups @TOBBAL #challenge #viral #couple - TikTok",
+      "category": "生活反差",
+      "title": "Song titled: real life story 🥺#fypシ゚viral🖤tiktok☆♡🦋myvideo #fypシ゚viral🖤tiktok☆♡🦋 #crying24ghcomedy2🤪 #crying24ghcomedy2🤪 #ghanatiktokers🇬🇭🇬🇭",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
-      "why": "连续剧结构 + 悬念",
+      "why": "真实感 + 文化差异",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13M0dNRXQzLXg5NlBQdmk1NTdiYi1FbTlYS1Mya0ItQll0UlhseFZLU0VTT0k1VGZnWGNTUmNGd0xGdjk3a0N4RmNuYTdCOFQ3WEg3bUttYjh4T2JSRUp1ZzdrSm50eS1ZZ3RmaVZsVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CMUJZUy0zdFNfbFM1R2o4UTg4eVJJME5xNGluRi1sZmdyc2swOHJ6YkRLdHlqYXdVZWRkUmVTRDBRc2N0QlRNZGhEeEstWlAxNUFHaXlzZ1Z6MXRaWFRGV1hfNEFWVGcwZ29VY3hn?oc=5",
       "thumbnail": "",
-      "published": "Thu, 19 Nov 2026 20:33:06 GMT"
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "True story #viral #life #tattoo #funny - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NNlE5dVpPLWpGalNEQTdXZ1ZpU3NFRUEwbEVoU3o0TWZYc2ZsTlBrdmVFVjNPZG1rZE4zdlhseDRCRTEtNkRrZEhkWXppNWNBbmRrZEp1dmdoanFGQ2VrT1pWZXV1cmJ2VTZxMjR6TjBzOWN1VjhhZl9n?oc=5",
+      "thumbnail": "",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "ADVANCED ChatGPT Dream Life Prompt Script - this version will ask you a series of clarifying questions to dive deeper into your dream life a",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44UnRVS1pUTEJmM3g2RnZvQW5abF91TGpJZWpIZTFjUGtObzgwZkdVY0R3cmxZeHB4WXA3dHkyNFdydFFjdldfTUN1RDZxQkVkb3JWVTNmMUh0djhoajdOR0lkMmJlRUdORjdwNk9oWF8zT3c?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 11 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "#preciousthefruitgirl #viralvideo - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FNHdPZWFJdTY0Vnc5bzZna0VSNGhXb0plNVlqcDUxYnI5QnNvUnoyNVYzUmNsVmY5d1ZZdnBLSHpGeEhFQnhWLTF2ZThJZEhCS1M5TFlYcWVQTzhfVzJHdlQ0SFQtX0RMbHdHQWdReGJobFkxdVdZcXpn?oc=5",
+      "thumbnail": "",
+      "published": "Sun, 08 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "生活反差",
+      "title": "Note:this is a true life story😭😂😫#fyp #viral #porkiyor - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "真实感 + 文化差异",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3WThvSVQweFhPSWtCMlhoemtyb1l5ZkdSa09LQllIaEVmQWRta2RiSGp6S09EWDZ4aTFkc1drTW9NQ211ajVMcUlpd3JKRU9ybkMxTGt2WmtOUmtZTnJqZS1CRk1yMkVSTXc?oc=5",
+      "thumbnail": "",
+      "published": "Wed, 22 Feb 2023 08:00:00 GMT"
     },
     {
       "platform": "TikTok",
       "category": "挑战",
-      "title": "chewsday innit @Mai_linhi @William 🐢 dc @Qiara🎀 #dance #dancetrend #viraldance #dancechallenge #fyp - TikTok",
+      "title": "TikTok - Make Your Day - TikTok",
       "source": "TikTok",
       "signal": "近期公开网页/RSS提及",
       "why": "连续剧结构 + 悬念",
       "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kQnFGc05wUzNFXzVySGp4eEZJX1AwN1VZcXJxczZMN19DWk1IVFN4a0d6VjhFdDJjaFlnVndtZWo2ZzNTRy1qYkRUeXd3Vi1BR2trSnZNVm1wLXZxRTBoV1JFSzk0dXlmdjZB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1ZSVNRQ0ZxOFBQUUtqMEpRTE51ZzlQLUVHamNGSHd4UWZNT0hwaUIwT2JEbGM0T3pjd1pN?oc=5",
       "thumbnail": "",
-      "published": "Thu, 19 Nov 2026 21:53:10 GMT"
+      "published": "Mon, 02 Apr 2012 19:21:05 GMT"
+    },
+    {
+      "platform": "TikTok",
+      "category": "挑战",
+      "title": "It’s TIMEEEEEE!! 😂😂😂😂 @7 Figures @RealRahsaun @Brotherofcolor @Isaiah⚡️ @Asa ♠️ @Nainoa @Iamrodrickmccobb🖤 - TikTok",
+      "source": "TikTok",
+      "signal": "近期公开网页/RSS提及",
+      "why": "连续剧结构 + 悬念",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hVE1pdWlhUVVXQUVBek11MC1QX3RubzZtVzcxWU9tUktBOVhpN0lhX3NkLUM0OG9mRVU5RFVtdXI0dXRqdXlZamhySTFsblhPWkJ2TUQ1QlhRMHJiQ0MxeVpRbDBDOUZyNzZCVUxn?oc=5",
+      "thumbnail": "",
+      "published": "Sat, 21 Nov 2026 23:29:59 GMT"
     }
   ],
   "china_top10": [
@@ -146,6 +146,18 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BVkhFeHJCc1hlV1hTUnU5Yml5YkxObDFrX01KMV8yRVNseG5vb1RWV2N3UlVqMjI5RzVZaWg1Q2pKeGs1bjdIOEM3QXJ5aFBJVndwTmc4bVVsOG9talE?oc=5",
       "thumbnail": "",
       "published": "Mon, 23 Jun 2025 08:31:33 GMT"
+    },
+    {
+      "platform": "抖音",
+      "category": "AI效率",
+      "title": "imagen2 AI使用教程 - 抖音",
+      "source": "抖音",
+      "signal": "近期公开网页/RSS提及",
+      "why": "痛点明确 + 工作流演示",
+      "hook": "先展示结果，再解释过程",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LeUFxMlhIeUw3enBmVi1pd3U0OHNlM0xrTXhJSnM3VVNQM2JtNTY3RFJWOHkxejVXdHBJSHlZN0RnemNOOUlaT05hdG5FS2YwTmRUV3FxZmtsVlZ1dUE?oc=5",
+      "thumbnail": "",
+      "published": "Fri, 05 Apr 2024 07:00:00 GMT"
     },
     {
       "platform": "抖音",
@@ -218,18 +230,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WeGFVNGh5Vl9mVkpOT25TUkZCc0kyWXlJODkzTTM0MkVGV1pOTG13UlJPZ2k4ODZXQ1FYWk9rNnljWm1kRU5PWWJ6TUptbmo4SkpzckdaMGNYQlRCU3c?oc=5",
       "thumbnail": "",
       "published": "Mon, 12 Aug 2024 09:04:49 GMT"
-    },
-    {
-      "platform": "抖音",
-      "category": "AI效率",
-      "title": "Steamdeck掌机如何开修改器 - 抖音",
-      "source": "抖音",
-      "signal": "近期公开网页/RSS提及",
-      "why": "痛点明确 + 工作流演示",
-      "hook": "先展示结果，再解释过程",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uaW5xd29jREVYUV81alJJNzExOEtxUTRGbjZwMldiWVd4UUx2SXo4LTk2WjI0TVdIVFpsTFBmLVdCbGdpYXFXeE92Z0Y3WW5KNnpVd0VsT1V6S0U2Mnc?oc=5",
-      "thumbnail": "",
-      "published": "Mon, 25 Sep 2023 12:30:54 GMT"
     },
     {
       "platform": "抖音",
@@ -311,6 +311,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "2026-11-22 日报",
+      "url": "archive/2026/11/2026-11-22.json"
+    },
     {
       "label": "2026-11-21 日报",
       "url": "archive/2026/11/2026-11-21.json"
